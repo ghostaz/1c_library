@@ -538,10 +538,8 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>26</width>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>false</horizontalStretch>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
@@ -697,10 +695,8 @@
             <showInFooter>true</showInFooter>
             <footerHorizontalAlign>Left</footerHorizontalAlign>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <width>14</width>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>false</horizontalStretch>
               <passwordMode>true</passwordMode>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -757,10 +753,9 @@
             <showInFooter>true</showInFooter>
             <footerHorizontalAlign>Left</footerHorizontalAlign>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <width>14</width>
               <autoMaxWidth>true</autoMaxWidth>
+              <height>1</height>
               <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>false</horizontalStretch>
               <passwordMode>true</passwordMode>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -891,7 +886,6 @@
             <representation>NormalSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <throughAlign>Auto</throughAlign>
             <currentRowUse>DontUse</currentRowUse>
           </extInfo>
         </items>
@@ -995,10 +989,7 @@
                 <event>StartChoice</event>
                 <name>ПользовательИнфБазыПользовательОСНачалоВыбора</name>
               </handlers>
-              <width>20</width>
-              <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>false</horizontalStretch>
               <choiceButton>true</choiceButton>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -1090,10 +1081,8 @@
             <showInFooter>true</showInFooter>
             <footerHorizontalAlign>Left</footerHorizontalAlign>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <width>19</width>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>false</horizontalStretch>
               <choiceListButton>true</choiceListButton>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -1144,10 +1133,8 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <width>19</width>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>false</horizontalStretch>
               <wrap>true</wrap>
               <choiceListButton>true</choiceListButton>
               <chooseType>true</chooseType>
@@ -1860,6 +1847,10 @@
   </handlers>
   <handlers>
     <event>BeforeLoadDataFromSettingsAtServer</event>
+    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnLoadDataFromSettingsAtServer</event>
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
@@ -2597,10 +2588,6 @@
     <handlers>
       <event>BeforeWriteAtServer</event>
       <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>OnWriteAtServer</event>
-      <name>ПриЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

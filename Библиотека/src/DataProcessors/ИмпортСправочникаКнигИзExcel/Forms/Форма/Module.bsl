@@ -34,8 +34,7 @@
 	КонецПопытки;
 	ActiveCell = Excel.ActiveCell.SpecialCells(xlLastCell);
 	RowCount = ActiveCell.Row;
-	ColumnCount = ActiveCell.Column;
-	//сформируем массив книг что бы передать на обработку в сервер один раз
+	// Сформируем массив книг что бы передать на обработку в сервер один раз
 	МассивКниг = Новый Массив;
 	Для Row = НачальнаСтрока По RowCount Цикл
 		Column = 2; //Инвентарный номер

@@ -140,8 +140,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВнешниеПользователи.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.ВнешниеПользователи.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.ВнешниеПользователи.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="b388bcb6-0216-4f49-a19d-c56617b16e24">
     <name>УдалитьПароль</name>
     <synonym>
@@ -239,16 +237,6 @@
         <lang>ru</lang>
       </pages>
     </help>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="fdbfed32-4265-4642-bd0f-9db54e21ed7f">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

@@ -16,5 +16,6 @@
   <content>CommonModule.ПользователиПереопределяемый</content>
   <content>CommonModule.Пользователи</content>
   <content>CommonModule.БСП</content>
+  <content>Role.ПользовательСОграничениемНаУдаление</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

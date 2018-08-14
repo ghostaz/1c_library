@@ -74,4 +74,12 @@
     </synonym>
     <comment></comment>
   </templates>
+  <templates uuid="0b72028c-c00f-4b23-bf00-66c9568830b9">
+    <name>ИзмененияВВерсии_1_0_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения в версии 1.0.4</value>
+    </synonym>
+    <comment></comment>
+  </templates>
 </mdclass:DataProcessor>
