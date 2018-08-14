@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec1ebc22-5396-4442-85e3-6350f4b9bd26">
+  <producedTypes>
+    <objectType typeId="5a0d9a20-0989-4080-ad1d-73e2131e7dd1" valueTypeId="e458424b-edff-4c1a-803a-a958cbb04e09"/>
+    <managerType typeId="0c273fb9-67a7-49ad-98a6-4d7557b52d7b" valueTypeId="0506b9e0-ddb6-48ac-8c4d-425b565225ec"/>
+  </producedTypes>
+  <name>ОстаткиКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки книг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиКниг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <explanation>
+    <key>ru</key>
+    <value>Показывает остатки книг, место текущего расположения, дату поступления, дату выдачи на руки и количество дней на руках</value>
+  </explanation>
+  <templates uuid="213aa630-d964-4afc-a8e5-5d16a60bee0c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="0bf755e0-637d-49b4-bf16-3fee2fbd602d">
+    <name>ОстаткиКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки книг</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

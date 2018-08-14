@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d7f4752-c319-4ea9-b7da-d5b1a9ecded0">
+  <producedTypes>
+    <objectType typeId="a486c41f-e6b7-469c-8703-d3ce4cd9096c" valueTypeId="7a2f2001-4438-4c0d-a6da-9b631235679e"/>
+    <managerType typeId="f0b4ae4b-67cf-4f39-a8fb-118e51187b37" valueTypeId="bb2a573e-d15c-4f0f-a3f3-c7e0a6c8bd16"/>
+  </producedTypes>
+  <name>ИмпортСправочникаКнигИзExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт справочника книг из Excel</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИмпортСправочникаКнигИзExcel.Form.Форма</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка позвляет заполнить справочник книг обработав файл Excel, сформированный специальным способом</value>
+  </explanation>
+  <forms uuid="8129a869-2835-4daa-b8cd-3c04a6140986">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e2a02ab6-4d9d-495a-a420-9e61dc83accc">
+    <name>ОткрытьИмпортСправочникаКнигИзExcel</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт справочника книг из Excel</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

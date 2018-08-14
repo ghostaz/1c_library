@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce8da544-164c-467a-9b1b-85773021388e">
+  <producedTypes>
+    <objectType typeId="cb04b466-0922-45b6-b7e7-ae72cc536bab" valueTypeId="9128c6a3-fc99-4ec3-ba83-bb96de3aad9f"/>
+    <refType typeId="b4daf3ef-154e-4aa0-b077-a8f636b474be" valueTypeId="3711ec9f-46d0-452b-8100-466f6ff7caa8"/>
+    <selectionType typeId="2d50e1f7-662f-49c5-b4b7-418212613f4a" valueTypeId="95b477b4-3094-492b-b7fd-87412e57477c"/>
+    <listType typeId="ad9371d0-8cba-4226-8d31-6e63d5407f17" valueTypeId="f380ab04-1099-4198-b454-e0e5c61b748e"/>
+    <managerType typeId="7bfd988e-8535-4eeb-b0a3-0dc571f888ca" valueTypeId="12ee6e0b-f104-43ed-960c-003117ded95b"/>
+  </producedTypes>
+  <name>ПоступлениеКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление книг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеКниг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <auxiliaryObjectForm>Document.ПоступлениеКниг.Form.ФормаДокументаПоступлениеКниг</auxiliaryObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.КнигиВБиблиотеке</registerRecords>
+  <attributes uuid="b314a30e-3272-4aea-8242-d34a468f4063">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="23196d75-3d90-4ba4-937c-23fb0936964b">
+    <name>ФормаДокументаПоступлениеКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа поступление книг</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b6000533-cb5d-437c-8ad7-1c07118fd7e3">
+    <producedTypes>
+      <objectType typeId="9d35326e-9ba6-4c85-adf7-9a35a9244c16" valueTypeId="6fc10726-7657-46ae-9e5b-fa28cd0320ff"/>
+      <rowType typeId="c3e89758-de93-4246-b014-48c86b5899dd" valueTypeId="ddac202e-df5b-4eaa-8c39-fa30d1e6762a"/>
+    </producedTypes>
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="ce66411d-7aa9-460f-9ed7-088a60547b24">
+      <name>Книга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Книга</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Книги</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd7392af-4755-4b54-b7eb-28d5633074b4">
+  <producedTypes>
+    <selectionType typeId="3666357d-4cc5-4333-b4a3-fc1b0925daab" valueTypeId="4c21dbef-a085-4a31-b4e2-10e2283c17e7"/>
+    <listType typeId="02cd677a-25fc-4d33-9b15-999dafcb6b38" valueTypeId="411c919a-6870-4507-ae28-e258a1a96959"/>
+    <managerType typeId="485ae9a3-811e-475b-95c0-69267e3dee8b" valueTypeId="5af569e6-3ffd-402b-9e99-90b1b3ef2e71"/>
+    <recordSetType typeId="7041d9a7-a57b-49c7-9132-d8eed02ba20e" valueTypeId="0acf034f-761a-4b93-b838-a38b827708f7"/>
+    <recordKeyType typeId="c9ccad3a-1cf5-497c-a07d-cea4199ee8b8" valueTypeId="9aafa531-a1f4-4c2b-81f5-695ade71f3e9"/>
+    <recordType typeId="a3756812-243f-4c69-900a-e1f6e72d0897" valueTypeId="ba937e89-ffb0-48cf-87f8-91d7de5cfa71"/>
+  </producedTypes>
+  <name>КнигиВБиблиотеке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книги в библиотеке</value>
+  </synonym>
+  <comment></comment>
+  <resources uuid="bfcdd42a-fa72-4db4-a7e2-7cd32bc143d6">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="d453de87-c1a2-4dc5-bc44-9533effa8007">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Операция</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="8302aa12-e9a4-4112-89e4-84db14539621">
+    <name>Книга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Книги</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e9e5b7a5-4298-47c6-8289-109d87933ed6">
+    <name>МестоРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место размещения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Абоненты</types>
+      <types>CatalogRef.МестаРазмещения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

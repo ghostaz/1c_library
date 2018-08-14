@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da8e5452-e535-44c0-b228-f0e02298c401">
+  <name>КаталогКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог книг</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаКаталогКниг</picture>
+  </picture>
+  <content>InformationRegister.КаталогКниг</content>
+  <content>FunctionalOption.ИспользоватьКаталогКниг</content>
+  <content>Constant.ИспользоватьКаталогКниг</content>
+  <content>CommonPicture.ПодсистемаКаталогКниг</content>
+  <content>Constant.АдресФайлаКаталогаКниг</content>
+  <content>CommonModule.КаталогКнигСервер</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

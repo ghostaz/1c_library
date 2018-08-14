@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af962146-1236-470f-a4f4-7eed084c81ef">
+  <producedTypes>
+    <objectType typeId="65c46f3d-6f43-461b-b1ff-c78ffab4cd23" valueTypeId="97bed419-db4e-4719-be01-ee3643903e1e"/>
+    <refType typeId="51429e60-c725-4ef1-8d25-bcfe8e0aa68a" valueTypeId="cddc6a11-a7b1-47fb-aa27-a0ebef2038fa"/>
+    <selectionType typeId="8925e60d-59bd-4a16-969c-0bbd1a9951ee" valueTypeId="d8a075c9-995e-4b13-9f6d-452fdde19019"/>
+    <listType typeId="573f7388-5555-4018-b302-35d473833b08" valueTypeId="6176e047-ada9-49eb-8214-a0dc64d8f0a8"/>
+    <managerType typeId="4178cd88-6027-4ac5-a9ee-29f367058f75" valueTypeId="286c0589-71c0-425f-baf6-656e8263d55f"/>
+  </producedTypes>
+  <name>ВозвратКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат книг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВозвратКниг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Task.ЗаказКниги</basedOn>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВозвратКниг.Form.ФормаДокументаВозвратКниг</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.КнигиВБиблиотеке</registerRecords>
+  <attributes uuid="389a941e-670e-4031-ab0b-9e1c618c71bc">
+    <name>Абонент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Абоненты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="79a86e5f-c5f5-4dbc-b11a-0bd5b2a731ab">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="ce5327dc-d0fa-4fe7-8f68-e0dd1f02b433">
+    <name>ФормаДокументаВозвратКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа возврат книг</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="501230d9-d81b-4539-9878-206b386021ce">
+    <producedTypes>
+      <objectType typeId="22635d3a-6726-4acb-ad12-ea8285480e6e" valueTypeId="4f728fd5-3618-478c-92d4-ecfb321baaa5"/>
+      <rowType typeId="23ca04d6-936d-4983-9b43-fbfdb57e5eae" valueTypeId="42628509-209c-492e-b311-e76d556245dc"/>
+    </producedTypes>
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="85950253-b65b-4d7d-9784-e1b188b399a9">
+      <name>Книга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Книга</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Книги</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

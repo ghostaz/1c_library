@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea6fe537-ccdf-4398-bc82-510fcab9554c">
+  <producedTypes>
+    <objectType typeId="989fa280-cba0-441c-b458-b57354ad399d" valueTypeId="0b351f41-94ff-4ef5-be73-fe27fd26d62b"/>
+    <refType typeId="41a6ff5c-fa48-4fcd-b0cb-45c9c345dbc5" valueTypeId="85f7aa47-33c8-4988-a0a6-14b272705261"/>
+    <selectionType typeId="aeb07234-4b78-48bd-b72a-d2ff03433a51" valueTypeId="e5c89164-68f2-4628-aa21-9046471b7631"/>
+    <listType typeId="e2913a76-3a02-4d8f-b183-6f4363ac7e98" valueTypeId="e9a2d3fc-4191-4da9-bd5d-3835bb24e12c"/>
+    <managerType typeId="84863eea-0b51-4d03-8696-e53c012920e1" valueTypeId="f92f253c-4697-4d52-8d59-0b41f6e9e57e"/>
+  </producedTypes>
+  <name>Диски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диски</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Диски.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Диски.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a1ed5584-85ae-41ef-8010-1124ae495cba">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>          </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

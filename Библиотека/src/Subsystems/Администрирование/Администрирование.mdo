@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5acc289-2d10-4bb3-afc0-67e29a5bda2f">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаАдминистрирование</picture>
+  </picture>
+  <content>DataProcessor.ИмпортСправочникаКнигИзExcel</content>
+  <content>Document.ВводОстатковКниг</content>
+  <content>Catalog.Пользователи</content>
+  <content>Constant.ОтветственныйЗаВыдачуКниг</content>
+  <content>CommonForm.ФормаНастроекСистемы</content>
+  <content>CommonPicture.ПодсистемаАдминистрирование</content>
+  <content>DataProcessor.СервисОбслуживания</content>
+  <content>CommonCommand.ОткрытьФормуНастроекСистемы</content>
+  <content>Enum.ТипПлатформы</content>
+  <subsystems>КаталогКниг</subsystems>
+  <subsystems>ОбновлениеКонфигурации</subsystems>
+  <subsystems>ПользователиИПрава</subsystems>
+  <subsystems>РаботаСФайлами</subsystems>
+  <subsystems>СервисОбслуживания</subsystems>
+</mdclass:Subsystem>

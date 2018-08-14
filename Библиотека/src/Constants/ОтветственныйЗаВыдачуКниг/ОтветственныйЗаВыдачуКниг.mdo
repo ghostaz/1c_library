@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10e462d1-6e95-40dc-b3dc-5edfee1323fb">
+  <producedTypes>
+    <managerType typeId="ea39c819-a6d2-498c-b240-7ca7ae896a8b" valueTypeId="6afb1412-ff87-4ed9-aaba-304880305269"/>
+    <valueManagerType typeId="c470d8ba-696e-4ffe-b12d-530d08a05489" valueTypeId="8e2b2e5b-c009-4753-ad06-684c54fe3ac8"/>
+  </producedTypes>
+  <name>ОтветственныйЗаВыдачуКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственный за выдачу книг</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Данный пользователь подставляется в задачи выдачи книг</value>
+  </explanation>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

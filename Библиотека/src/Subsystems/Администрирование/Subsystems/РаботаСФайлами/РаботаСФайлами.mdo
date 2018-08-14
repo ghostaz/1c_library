@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edb12701-fb73-4e12-b31c-6d0933f3e720">
+  <name>РаботаСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с файлами</value>
+  </synonym>
+  <comment>Подсистема отвечает за хранение файлов</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Файлы</content>
+  <content>Constant.МестоХраненияФайлов</content>
+  <content>Constant.ПутьКФайламНаДиске</content>
+  <content>Enum.МестаХраненияФайлов</content>
+  <content>Constant.МаксимальныйРазмерФайла</content>
+  <content>Constant.ДопустимыеРасширенияФайлов</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89b17694-7aac-46d5-a05b-c8f392ebb31d">
+  <producedTypes>
+    <objectType typeId="d2184674-856a-4b1e-a36d-74c694b49c1b" valueTypeId="f6f8d989-b953-4f64-ab64-1c303e11805f"/>
+    <managerType typeId="7b819e32-58a4-4c7e-9163-b17ca6b38b4b" valueTypeId="4ac662ca-e44b-4ba9-8e91-eca0208890d3"/>
+  </producedTypes>
+  <name>ИсторияПользованияКнигами</name>
+  <synonym>
+    <key>ru</key>
+    <value>История пользования книгами</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИсторияПользованияКнигами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0a16e630-3aaa-43d7-bf0f-d46067aaa969">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="d161dff0-aafb-46f8-b4bb-700376f00760">
+    <name>ИсторияПользованияКнигами</name>
+    <synonym>
+      <key>ru</key>
+      <value>История пользования книгами</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

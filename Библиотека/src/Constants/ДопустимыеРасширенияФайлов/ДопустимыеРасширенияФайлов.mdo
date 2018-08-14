@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06775a67-1483-4dd1-b1db-9bb80db30b9a">
+  <producedTypes>
+    <managerType typeId="474716a6-7dba-4a06-90c9-a452338aae75" valueTypeId="9ffea93b-cb77-4d9a-9378-8e632167d8ff"/>
+    <valueManagerType typeId="09bed7d1-1c90-4e51-a56d-b9cb889a8312" valueTypeId="a744fc18-b437-4e08-94ed-652ef8b700d4"/>
+  </producedTypes>
+  <name>ДопустимыеРасширенияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Допустимые расширения файлов (через ;)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

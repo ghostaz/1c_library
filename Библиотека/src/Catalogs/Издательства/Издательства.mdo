@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="361aea47-956a-4f36-b60f-99ed7afdf3f1">
+  <producedTypes>
+    <objectType typeId="b8696e62-91e9-4d04-8ce9-eab8ce26d830" valueTypeId="255e73d4-9f3d-446f-9857-a8adc8eb00d4"/>
+    <refType typeId="28aef9ea-81e5-4d03-9547-e932a2a77754" valueTypeId="0f6b3f35-187a-4b0b-a880-ebd25bba4973"/>
+    <selectionType typeId="b8493253-d93f-4fbb-8119-b46c92167ac3" valueTypeId="b24a6c8b-2657-4f76-9938-a67aa69fa7ac"/>
+    <listType typeId="c3e5620d-954f-4d3f-b519-fc1ec593d321" valueTypeId="45025c9b-d83c-46a8-a60a-246cb45fed63"/>
+    <managerType typeId="8f40fdb2-7015-4740-afd9-6a7f470f7741" valueTypeId="b5dd0f4d-559d-4535-ba48-c74b1dd78b03"/>
+  </producedTypes>
+  <name>Издательства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Издательства</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Издательства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Издательства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Издательство</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Издательства.Form.ФормаЭлементаИздательств</defaultObjectForm>
+  <defaultListForm>Catalog.Издательства.Form.ФормаСпискаИздательств</defaultListForm>
+  <forms uuid="07b9e22b-6b70-4c0a-9242-68de9aab7b04">
+    <name>ФормаЭлементаИздательств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента издательств</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2867b2da-b2fa-4466-b593-59bee9790ff8">
+    <name>ФормаСпискаИздательств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка издательств</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8800d80c-ec66-4f73-b2ae-4016f6bb61cc">
+  <name>СервисОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис обслуживания</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>3c0cc3d2-7cd6-4b0f-a3aa-b3961b6ae7e4</content>
+  <content>Constant.УникальныйИдентификаторБазы</content>
+  <content>ef899fa4-0c0e-4811-bc94-d207812942a4</content>
+  <content>Constant.СсылкаНаОписаниеВебСервисовСервераОбслуживания</content>
+  <content>Constant.ПользовательСервераОсблуживания</content>
+  <content>Constant.ПарольСервераОбслуживания</content>
+  <content>Constant.ИмяСервисаСервераОбслуживания</content>
+  <content>Constant.ИмяПортаСервераОбслуживания</content>
+  <content>Constant.ПространствоИменСервераОбслуживания</content>
+  <content>CommonForm.ФормаНастроекСистемы</content>
+  <content>Constant.НаименованиеОрганизации</content>
+  <content>DataProcessor.СервисОбслуживания</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

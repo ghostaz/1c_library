@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0e8c495-ca83-41f0-9638-5ca5faf0733c">
+  <producedTypes>
+    <managerType typeId="8c5924d0-4652-436f-bade-f2d88d61b208" valueTypeId="ec2ccefa-19b2-41f9-a9ae-b515d76fc79b"/>
+    <valueManagerType typeId="5cbca0ab-3595-42a6-9f12-08f914353d60" valueTypeId="b57dad63-049e-405b-8cee-96c94c9c0601"/>
+  </producedTypes>
+  <name>ИспользоватьКаталогКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать каталог книг</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

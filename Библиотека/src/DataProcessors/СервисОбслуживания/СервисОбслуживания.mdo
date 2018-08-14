@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24ad8749-a890-48b0-9c10-77cced4c3a4a">
+  <producedTypes>
+    <objectType typeId="6c0e8e27-4aae-4044-add3-8b58e85a4303" valueTypeId="6db95e6d-1126-4df3-b2d1-2288cbc9ea07"/>
+    <managerType typeId="03de0246-acb1-46ae-9fdf-cba6f4491102" valueTypeId="75e05e65-11d8-413d-83b1-124bbd537893"/>
+  </producedTypes>
+  <name>СервисОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис обслуживания</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СервисОбслуживания.Form.ФормаОбслуживанияИБ</defaultForm>
+  <forms uuid="7c29e5bc-e275-490e-8957-5ac22245e51d">
+    <name>ФормаОбслуживанияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обслуживания базы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f350e9c5-ec6d-43be-a918-6acf6664dbc1">
+    <name>ОткрытьСервисОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис обслуживания</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3be24584-b422-4846-aaf4-03ddd33b4851">
+  <producedTypes>
+    <refType typeId="ddc3fca5-87cb-419a-b2ba-fd1482a3d516" valueTypeId="24d04a0c-6258-41c8-8e81-dbb9567536f6"/>
+    <listType typeId="cddc8468-1362-4b9b-8f87-7f94030ed617" valueTypeId="011fb586-95ef-4c38-9f92-5e24bd3b4dd1"/>
+    <managerType typeId="bfc4dcef-a398-41c5-bc30-e66cafc6ac9c" valueTypeId="e70d6f66-aa71-4223-8ca6-884d37cffbb2"/>
+  </producedTypes>
+  <name>ТипПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип платформы</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="93633fff-bfd2-4dc5-b355-8b2c7fe940b4">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="33d65b70-4175-498c-8659-17a539924710">
+    <name>Linux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Linux</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ba2ddfd4-144b-4fa1-8fe8-893a9381bf45">
+    <name>MacOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mac OS</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

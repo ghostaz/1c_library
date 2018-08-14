@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5941d515-aac6-4151-8aeb-c746b2a80a87">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</picture>
+  </picture>
+  <content>Catalog.Книги</content>
+  <content>Catalog.Авторы</content>
+  <content>Catalog.Издательства</content>
+  <content>Catalog.Абоненты</content>
+  <content>Catalog.МестаРазмещения</content>
+  <content>Catalog.Диски</content>
+  <content>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</content>
+  <content>CommonPicture.ИзображениеКниги</content>
+  <content>CommonPicture.ИзображениеАбонента</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеСвойства</content>
+  <content>Catalog.ДополнительныеСвойства</content>
+  <content>InformationRegister.ДополнительныеСвойства</content>
+  <subsystems>ДополнительныеСвойства</subsystems>
+</mdclass:Subsystem>

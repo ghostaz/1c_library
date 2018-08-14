@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90fb337c-f933-4997-a27b-6e944dafa689">
+  <producedTypes>
+    <objectType typeId="c5b1bde7-4c10-400f-ab91-cbe4dc4174af" valueTypeId="1e08825a-22c6-4aeb-af87-cd38d4caccf7"/>
+    <refType typeId="49784e37-7c9d-41be-bcf4-bb7f5cbc1152" valueTypeId="0203e669-2492-4d16-bd8f-7bedf4a7ba44"/>
+    <selectionType typeId="fabc464c-f364-4bdf-a2c0-bcde813c16fd" valueTypeId="043cfec3-6cdf-4035-bad6-71a7446fa75e"/>
+    <listType typeId="3047e577-bb9c-4d1a-b6ce-5800448055cb" valueTypeId="05728bfb-6ff4-44f6-83e9-94d7fcebcadd"/>
+    <managerType typeId="8ae71434-37ef-4f07-88e5-9151469bfe41" valueTypeId="b10c1c49-2128-481d-9a47-ef619c070bc4"/>
+  </producedTypes>
+  <name>Абоненты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абоненты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Абоненты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Абоненты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Абонент</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Абоненты.Form.ФормаЭлементаАбонента</defaultObjectForm>
+  <defaultListForm>Catalog.Абоненты.Form.ФормаСпискаАбонентов</defaultListForm>
+  <forms uuid="39dc973d-3952-4597-8a00-55865169b53c">
+    <name>ФормаСпискаАбонентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список абонентов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aa474a0e-e6b7-4f14-a969-9105df09d969">
+    <name>ФормаЭлементаАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карочка абонента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

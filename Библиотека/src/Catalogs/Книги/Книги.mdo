@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae643f3f-f0fe-4052-93e3-d857c67cb30a">
+  <producedTypes>
+    <objectType typeId="2f14051d-64e6-4146-a9c3-68e50c02fccb" valueTypeId="f09b080c-5891-4fbd-a46d-f68f9047a4eb"/>
+    <refType typeId="0ad0be7d-a024-4ee5-9161-893844f1e98f" valueTypeId="1ffeb616-1719-4ceb-9a22-23b18c6f050f"/>
+    <selectionType typeId="3e2a4593-d55b-43f2-b1e7-cb177a0ebc33" valueTypeId="13a24e26-290a-4194-92db-846eb171caaa"/>
+    <listType typeId="082c4333-f9a9-40c9-949f-655138eaba68" valueTypeId="0eaf48c3-90f1-4da9-b561-188c7dfd5c45"/>
+    <managerType typeId="0c131964-71e8-4927-9fe5-ab4c321d7ccb" valueTypeId="4a101ed0-d669-43b5-884c-624145159620"/>
+  </producedTypes>
+  <name>Книги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книги</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Книги.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Книги.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Книга</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Книги.Form.ФормаЭлементаКниги</defaultObjectForm>
+  <defaultListForm>Catalog.Книги.Form.ФормаСпискаКниг</defaultListForm>
+  <defaultChoiceForm>Catalog.Книги.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="92f577ce-f665-4a1c-bded-de120310e99a">
+    <name>Страниц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страниц</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7acce412-043d-4417-acee-368138d12388">
+    <name>Издательство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Издательство</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Издательства</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d54d9be4-504e-418f-80a8-2542b9d5b11b">
+    <name>ISBN</name>
+    <synonym>
+      <key>ru</key>
+      <value>ISBN</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3441e19f-7557-491c-b2c5-fef181be7605">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>400</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2bd64cac-7b33-4421-bdf4-7b4411190fce">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d794a6f5-4556-4682-8902-48e33bfaeed7">
+    <name>ИмеетсяКомпактДиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имеется компакт диск</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5c6ba6a2-e500-44ba-8b9b-5ec047cba06a">
+    <name>ББК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ББК</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ce23e712-fa49-44c4-96b2-aec2f57ab60a">
+    <name>УДК</name>
+    <synonym>
+      <key>ru</key>
+      <value>УДК</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5cabc02e-09ed-40c9-829a-5734d9192caf">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="350e28ed-4b0b-470b-b002-b5a5a89392a8">
+    <name>Диск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диск</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Диски</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9dfcb3d3-a4f8-4ab2-80f7-72efbf9464eb">
+    <name>ГодИздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год издания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8360b496-dda3-4bb6-90a6-4bbf45dc6807">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f5f92d31-08b7-4af2-8070-3eef07019033">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="46ea3bff-783a-4bd7-a4f9-6a4ba403b0f8">
+    <name>Тираж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тираж</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="11dcbda5-ee3d-41a6-9420-362ffb8b6f5f">
+    <name>Обложка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обложка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="dacffc85-facd-4322-9417-1e0aa1710188">
+    <producedTypes>
+      <objectType typeId="6d48ca26-29f7-48c8-a26c-0fad65706a97" valueTypeId="2a229411-6722-4614-a8cc-cb28fb6777de"/>
+      <rowType typeId="00b20935-33a5-495e-a013-664746695012" valueTypeId="0d8d2814-704b-42a1-b68e-1740747daf43"/>
+    </producedTypes>
+    <name>Авторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторы</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="641e3df9-7383-45ee-87ab-7b405e2c9795">
+      <name>Автор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автор</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Авторы</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="78b91eda-8af0-45db-8f89-16eee3fc7591">
+    <name>ФормаЭлементаКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка книги</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7838e574-a29b-4432-8fc3-90ceb8154a76">
+    <name>ФормаСпискаКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список книг</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6eafb970-2bb8-4d04-8d18-aeae2105ef3d">
+    <name>ФормаСпискаКнигПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка книг пользователя</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f767df8c-5d36-4ba2-827c-843ad7bad868">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3731608c-2208-44af-9dfc-6c73d4d78d9a">
+    <name>ФормаИсторияПользованияКнигой</name>
+    <synonym>
+      <key>ru</key>
+      <value>История пользования книгой</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c4647ef0-eb93-48f2-8d77-b345ebc421fb">
+    <name>Формуляр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формуляр</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <commands uuid="f4395f4a-ebe8-4e48-b70e-25e906160d94">
+    <name>ВозвратКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат книги</value>
+    </synonym>
+    <comment>Команда позволяет выдать книгу в любом месте конфигурации</comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Книги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="d51fc993-d810-4842-95c8-218ebd98ab1b">
+    <name>ВыдачаКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача книги</value>
+    </synonym>
+    <comment>Команда позволяет выдать книгу в любом месте конфигурации</comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Книги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="d68ed382-9fa1-400e-b88e-67e85c2fa1cf">
+    <name>ИсторияПользованияКнигой</name>
+    <synonym>
+      <key>ru</key>
+      <value>История пользования книгой</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Книги</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="47d4ea9f-8b0a-4368-a539-152c4ce25676">
+    <name>ПечатьФормуляра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать формуляра</value>
+    </synonym>
+    <comment></comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Книги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Печать формуляра книги</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="f655b088-c501-476b-acac-7b4d6e766d32">
+    <name>ПоступлениеКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление книги</value>
+    </synonym>
+    <comment>Команда позволяет сделать поступление выбранных книг</comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Книги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

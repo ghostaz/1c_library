@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f961808b-20c1-4a18-b5c5-bf59e8003312">
+  <producedTypes>
+    <objectType typeId="a3cb795e-f46a-4e25-8b65-a5244d4f4a0b" valueTypeId="1322c322-faa9-4dcb-aac4-9fe929f87afa"/>
+    <managerType typeId="fb9d5a2f-c9b2-454f-8a0d-21b6b0ce8296" valueTypeId="9fa39551-bf13-4b7d-ae1f-494763d71ab6"/>
+  </producedTypes>
+  <name>ФормированиеЗаказаКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование заказа книг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ФормированиеЗаказаКниг.Form.ФормаЗаказаКниг</defaultForm>
+  <tabularSections uuid="5006473e-7bc6-44f0-a35a-eef74f70da51">
+    <producedTypes>
+      <objectType typeId="8af5ec9d-335e-4262-bfa8-5428c33a3814" valueTypeId="6abca642-7cd9-49f3-bdf7-45317c61d763"/>
+      <rowType typeId="e7658d17-2b65-4269-a819-e5f1b8d734dd" valueTypeId="2291fd05-392b-4e05-a574-8019fda3bce0"/>
+    </producedTypes>
+    <name>КнигиКЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги к заказу</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f6ca2733-eb00-457b-9997-679a746514ec">
+      <name>Книга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Книга</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Книги</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="370b2369-d76a-4672-bba4-8b942e37a09f">
+    <name>ФормаЗаказаКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заказа книг</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

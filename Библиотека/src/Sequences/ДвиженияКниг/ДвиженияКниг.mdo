@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a497bac-1d91-4542-9902-42a44dfdeef7">
+  <producedTypes>
+    <recordType typeId="fba9715d-c60d-41f7-929d-6536c7501bb3" valueTypeId="09c096ae-fa6c-4b07-9496-d6b5180c8d0a"/>
+    <managerType typeId="13989cb7-1982-44f3-9671-3727978dbaf1" valueTypeId="b9877ef6-ab10-421c-8391-12a175dae542"/>
+    <recordSetType typeId="76c41c98-e50d-42b1-b30f-0b6041543f69" valueTypeId="889d5ba7-7217-4a9a-bd48-306daf99c908"/>
+  </producedTypes>
+  <name>ДвиженияКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения книг</value>
+  </synonym>
+  <comment></comment>
+  <documents>Document.ВыдачаКниг</documents>
+  <documents>Document.ВозвратКниг</documents>
+  <documents>Document.ПоступлениеКниг</documents>
+  <registerRecords>AccumulationRegister.КнигиВБиблиотеке</registerRecords>
+</mdclass:Sequence>

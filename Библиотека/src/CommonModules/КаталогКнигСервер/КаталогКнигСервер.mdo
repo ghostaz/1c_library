@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="539f7d65-30b6-4193-be13-4935903cf2e6">
+  <name>КаталогКнигСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог книг сервер</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>

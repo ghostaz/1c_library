@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf6664be-fb05-4ba0-a0da-6ce8727f7275">
+  <producedTypes>
+    <managerType typeId="6e0acbd8-7ce4-4402-ad02-bc1625025edd" valueTypeId="aa6372a0-f4e7-4b16-855f-6d3ed58cb948"/>
+    <valueManagerType typeId="ff0ac64b-fcf7-4da8-a6bc-f82db09bbf62" valueTypeId="4b7430c1-a0b2-4378-aa06-6e1dba4d1815"/>
+  </producedTypes>
+  <name>ПутьКФайламНаДиске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к файлам на диске</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

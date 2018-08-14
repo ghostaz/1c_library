@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de444961-4ae8-4414-9a92-bc0627daf50a">
+  <producedTypes>
+    <refType typeId="607fd436-f33c-428c-9696-e4c9a8f9f2df" valueTypeId="801d07b6-30d8-4588-bdaf-946bbf05f6bb"/>
+    <listType typeId="1b1469e3-1479-41fa-8762-accaa8df7a9a" valueTypeId="f92063a6-9f86-4ae6-b597-e541729095d0"/>
+    <managerType typeId="ccb9d0d8-bb87-4b12-ab9e-3b04db06b443" valueTypeId="ef83aec1-5d79-493c-bcda-fd19e5f0a5f6"/>
+  </producedTypes>
+  <name>МестаХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места хранения файлов</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41966e8f-8264-48e4-a93e-1eef7e8fe9f2">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="37b88ce0-c2f0-49c0-917c-ec54ac3b63c1">
+    <name>ЛокальныйДиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный диск</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

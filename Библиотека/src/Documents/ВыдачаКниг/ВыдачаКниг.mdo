@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ff6bcca-f14a-485c-8e0e-83ee89303e93">
+  <producedTypes>
+    <objectType typeId="27373bcc-4093-47cd-aa88-e50340999d20" valueTypeId="02a3f981-f688-47f9-8382-7cc701f385ba"/>
+    <refType typeId="b4bf6514-b8ee-41fe-9930-13ad7ed5a08b" valueTypeId="da9beba0-86fa-448e-827c-ed3d1bf4f283"/>
+    <selectionType typeId="5ec39489-a6c0-4807-a7a1-095e2866413e" valueTypeId="4f164582-4c62-4bfe-adda-a18810432973"/>
+    <listType typeId="5aa2cf49-95ab-4ba0-8971-11f46dc9a6f0" valueTypeId="2d8b0a74-d37b-49bf-95cf-5e2adcb5a080"/>
+    <managerType typeId="3b326d3d-145f-4241-b23c-6f76ecc4801a" valueTypeId="9c743537-b309-4b7c-bca7-2c75049be81d"/>
+  </producedTypes>
+  <name>ВыдачаКниг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача книг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыдачаКниг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Task.ЗаказКниги</basedOn>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВыдачаКниг.Form.ФормаДокументаВыдачаКниг</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.КнигиВБиблиотеке</registerRecords>
+  <attributes uuid="c2bb1dd7-beba-4248-ab70-ec5e14879e62">
+    <name>Абонент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Абоненты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a43dbcdc-94c8-445a-ac61-9a0ec8b5ff35">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="66351689-0a6f-4840-bf83-197f6f18de7c">
+    <name>ФормаДокументаВыдачаКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа выдача книг</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3865a7bd-1906-4204-a28e-69a30f5c4a95">
+    <producedTypes>
+      <objectType typeId="474e150e-4951-4fe0-9d49-85b277c95c81" valueTypeId="b1c61e38-65ac-4885-8b05-ffdbc4515d85"/>
+      <rowType typeId="3455f1b0-7ab3-4813-aa68-1767bf14c89c" valueTypeId="0723f9a7-2174-4f21-b730-3e5b184de6bb"/>
+    </producedTypes>
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="e5a0ae54-10ae-4cb9-b321-92bb867acd98">
+      <name>Книга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Книга</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Книги</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

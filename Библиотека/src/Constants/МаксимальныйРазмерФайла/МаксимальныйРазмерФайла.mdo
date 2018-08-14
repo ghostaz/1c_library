@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80229f28-f875-4980-836e-a1d8eae7538c">
+  <producedTypes>
+    <managerType typeId="55b2fe50-4491-4e9f-b8a6-fe6ab036c1f0" valueTypeId="e87e400c-6451-4ce4-bdb8-7f9617f5c904"/>
+    <valueManagerType typeId="4644f99e-663c-4198-bef4-aac5c66db7d0" valueTypeId="23f21727-6dd4-473f-a430-2fef35c66748"/>
+  </producedTypes>
+  <name>МаксимальныйРазмерФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный размер файла в байтах (0 - неограниченно)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

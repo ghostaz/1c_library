@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f719b66c-a5b4-43a4-bf05-daad04c9cf76">
+  <producedTypes>
+    <refType typeId="8f651c1b-25ea-40e5-9587-cf6bc517c6b1" valueTypeId="b06117fb-b16d-48c7-a312-5d9556ea89c1"/>
+    <listType typeId="dee47be1-51a6-44d6-a507-6ae2e1fa0f3e" valueTypeId="05ce2346-ff5c-4485-a94a-baed571acd99"/>
+    <managerType typeId="17b304e7-77dd-4b8a-ac6d-197743d0a6e4" valueTypeId="d566883d-752f-41a1-9a19-90f95d179bed"/>
+  </producedTypes>
+  <name>Операция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc08cb96-d3cb-4d06-a283-857982cab995">
+    <name>ПоступлениеКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление книг</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d12a74bb-d314-4fe5-b93b-637511dce609">
+    <name>ВыдачаКнигиАбоненту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача книги абоненту</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="04a508cf-a1d8-4da6-b0e2-aebc45c23cda">
+    <name>ВозвратКнигиАбонентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат книги абонентом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="74fbd3de-14c4-4525-97ac-710ea204613b">
+    <name>СписаниеКниг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание книг</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

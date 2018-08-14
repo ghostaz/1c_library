@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05280a78-9334-4245-8b63-ab81bd6d2d7a">
+  <producedTypes>
+    <objectType typeId="09b2186f-e8eb-437b-b9de-2f940b17ea89" valueTypeId="f418acdb-f3a3-42d8-b694-077d12594d38"/>
+    <refType typeId="515f7789-ca4d-48ff-b64e-86beefb151cc" valueTypeId="a565fc9f-0893-4506-8a5b-e5c60f6e6eb9"/>
+    <selectionType typeId="bd8eb982-c303-4d6f-abfa-85a3c27dba07" valueTypeId="9b9efc21-eaf5-4d59-bd94-66cb0af7f883"/>
+    <listType typeId="d1de5d17-75a8-4fd2-acbe-7a6cfa42cfc9" valueTypeId="5552fabe-f7e7-48ab-b51c-5f89263c938d"/>
+    <managerType typeId="e3c5ca2f-161e-4a86-8f9b-81cb7cab263d" valueTypeId="de3379a4-2d68-4d0c-938a-7c5af4e20056"/>
+  </producedTypes>
+  <name>МестаРазмещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места размещения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаРазмещения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МестаРазмещения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="04f7b7bb-349b-4704-b788-a5916b18a7d2">
+      <name>Библиотека</name>
+      <description>Библиотека</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

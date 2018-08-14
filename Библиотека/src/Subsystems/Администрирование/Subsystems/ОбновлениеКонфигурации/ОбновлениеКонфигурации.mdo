@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d70d5283-6e89-4c72-b79d-cdc5f0737392">
+  <name>ОбновлениеКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ВерсияКонфигурации</content>
+  <content>CommonModule.ОбновлениеКонфигурацииКлиент</content>
+  <content>CommonModule.ОбновлениеКонфигурацииСервер</content>
+  <content>DataProcessor.ОбновлениеКонфигурации</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>
