@@ -19,7 +19,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.4.1</version>
+  <version>1.0.4.2</version>
   <updateCatalogAddress></updateCatalogAddress>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
