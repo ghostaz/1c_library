@@ -26,7 +26,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>62</descriptionLength>
   <codeType>String</codeType>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
@@ -35,6 +35,48 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Абоненты.Form.ФормаЭлементаАбонента</defaultObjectForm>
   <defaultListForm>Catalog.Абоненты.Form.ФормаСпискаАбонентов</defaultListForm>
+  <attributes uuid="5b479b1f-6a44-494c-8d82-d686efb79fd3">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f280be51-9245-4ad0-826c-b4481e5464ac">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3aa19e57-2875-4000-a436-10bf0b495088">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <forms uuid="39dc973d-3952-4597-8a00-55865169b53c">
     <name>ФормаСпискаАбонентов</name>
     <synonym>

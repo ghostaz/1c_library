@@ -82,4 +82,12 @@
     </synonym>
     <comment></comment>
   </templates>
+  <templates uuid="23b5a6c5-9e00-4547-8dae-d5fa055950fd">
+    <name>ИзмененияВВерсии_1_0_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения в версии 1.0.5</value>
+    </synonym>
+    <comment></comment>
+  </templates>
 </mdclass:DataProcessor>
