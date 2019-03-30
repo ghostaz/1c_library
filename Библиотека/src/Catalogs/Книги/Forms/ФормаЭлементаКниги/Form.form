@@ -640,9 +640,9 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
-          <width>12</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <textColor xsi:type="core:ColorDef">
             <green>128</green>
           </textColor>

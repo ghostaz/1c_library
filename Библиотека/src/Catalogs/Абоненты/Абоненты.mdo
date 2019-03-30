@@ -17,6 +17,11 @@
   <inputByString>Catalog.Абоненты.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Абоненты.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
@@ -26,7 +31,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>62</descriptionLength>
+  <descriptionLength>77</descriptionLength>
   <codeType>String</codeType>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
@@ -44,7 +49,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>20</length>
+        <length>25</length>
       </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
@@ -58,7 +63,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>20</length>
+        <length>25</length>
       </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
@@ -72,7 +77,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>20</length>
+        <length>25</length>
       </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>

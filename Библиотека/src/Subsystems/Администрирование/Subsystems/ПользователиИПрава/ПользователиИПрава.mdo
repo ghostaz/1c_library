@@ -7,12 +7,10 @@
   </synonym>
   <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>Catalog.ВнешниеПользователи</content>
   <content>Role.ПолныеПрава</content>
   <content>Role.Абонент</content>
   <content>Role.Пользователь</content>
   <content>SessionParameter.ТекущийПользователь</content>
-  <content>CommonModule.ВнешниеПользователи</content>
   <content>CommonModule.ПользователиПереопределяемый</content>
   <content>CommonModule.Пользователи</content>
   <content>CommonModule.БСП</content>

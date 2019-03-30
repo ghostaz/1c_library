@@ -19,7 +19,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.5.1</version>
+  <version>1.0.5.2</version>
   <updateCatalogAddress></updateCatalogAddress>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -60,7 +60,6 @@
   <roles>Role.Пользователь</roles>
   <roles>Role.ПользовательСОграничениемНаУдаление</roles>
   <commonModules>CommonModule.БСП</commonModules>
-  <commonModules>CommonModule.ВнешниеПользователи</commonModules>
   <commonModules>CommonModule.КаталогКнигСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеКонфигурацииКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеКонфигурацииСервер</commonModules>
@@ -93,7 +92,6 @@
   <commonForms>CommonForm.ФормаНастроекСистемы</commonForms>
   <catalogs>Catalog.Абоненты</catalogs>
   <catalogs>Catalog.Авторы</catalogs>
-  <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.Диски</catalogs>
   <catalogs>Catalog.ДополнительныеСвойства</catalogs>
   <catalogs>Catalog.Издательства</catalogs>
