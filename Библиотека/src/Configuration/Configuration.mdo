@@ -17,7 +17,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.5.2</version>
+  <version>1.0.6.1</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
