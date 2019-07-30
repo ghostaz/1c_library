@@ -12,93 +12,83 @@
     <key>ru</key>
     <value>Файлы</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Файлы.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Файлы.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Predefined</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Owner</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Parent</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -123,16 +113,15 @@
       <key>ru</key>
       <value>Дата загрузки</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="80a1b595-431e-4bea-a5e0-7540930b9d86">
     <name>МестоХранения</name>
@@ -140,15 +129,14 @@
       <key>ru</key>
       <value>Место хранения</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.МестаХраненияФайлов</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ca6893e5-3df1-43f4-922c-7846c0fd38fd">
     <name>Автор</name>
@@ -160,11 +148,11 @@
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="22a22d9e-58b0-4f0a-a676-db7ddeab0172">
     <name>ИмяФайлаНаДиске</name>
@@ -179,13 +167,13 @@
         <length>255</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="64ec372d-8c35-41ac-bfff-8281b3045106">
     <name>Расширение</name>
@@ -193,20 +181,19 @@
       <key>ru</key>
       <value>Расширение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>10</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4a4727e9-deb2-401d-8852-bbc1177efcb7">
     <name>Размер</name>
@@ -221,11 +208,11 @@
         <precision>15</precision>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="097a4251-227c-4219-ad8a-cb1514d0604e">
     <name>ИдентификаторФайла</name>
@@ -233,20 +220,19 @@
       <key>ru</key>
       <value>Идентификатор файла</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>36</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="608a31e2-e1e2-4534-a14b-d6883a8183d3">
     <name>MD5</name>
@@ -254,20 +240,19 @@
       <key>ru</key>
       <value>MD5</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>32</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="99bab179-4418-422b-aae7-c8943cf743bd">
     <name>Данные</name>
@@ -279,11 +264,11 @@
     <type>
       <types>ValueStorage</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="b264c46d-c892-4659-9064-0e62d86ec899">
     <name>ФормаЭлементаФайла</name>
@@ -291,7 +276,6 @@
       <key>ru</key>
       <value>Форма элемента файла</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

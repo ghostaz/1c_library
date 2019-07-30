@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Пользователи и права</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Role.ПолныеПрава</content>
   <content>Role.Абонент</content>

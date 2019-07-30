@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Остатки книг</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ОстаткиКниг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <explanation>
@@ -22,7 +21,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
   <commands uuid="0bf755e0-637d-49b4-bf16-3fee2fbd602d">
@@ -31,7 +29,6 @@
       <key>ru</key>
       <value>Остатки книг</value>
     </synonym>
-    <comment></comment>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>

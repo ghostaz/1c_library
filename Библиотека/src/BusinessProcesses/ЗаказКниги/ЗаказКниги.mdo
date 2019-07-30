@@ -13,71 +13,63 @@
     <key>ru</key>
     <value>Заказ книги</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>BusinessProcess.ЗаказКниги.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Started</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>HeadTask</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Completed</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -97,15 +89,14 @@
       <key>ru</key>
       <value>Автор</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="39416a12-4fda-4bd8-b40d-85bbfa303ffe">
     <name>Комментарии</name>
@@ -113,18 +104,17 @@
       <key>ru</key>
       <value>Комментарии</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="d74e7c34-27de-46f4-8f5e-2e5814f6761a">
     <producedTypes>
@@ -136,13 +126,11 @@
       <key>ru</key>
       <value>Книги к заказу</value>
     </synonym>
-    <comment></comment>
     <standardAttributes>
+      <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -152,13 +140,12 @@
         <key>ru</key>
         <value>Книга</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Книги</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>

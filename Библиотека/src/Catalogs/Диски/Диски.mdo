@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Диски</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Диски.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Диски.StandardAttribute.Code</inputByString>
@@ -37,7 +36,6 @@
       <key>ru</key>
       <value>Инвентарный номер</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -45,12 +43,12 @@
         <fixed>true</fixed>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value>          </value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
 </mdclass:Catalog>

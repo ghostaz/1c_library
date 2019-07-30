@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Места размещения</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.МестаРазмещения.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.МестаРазмещения.StandardAttribute.Code</inputByString>

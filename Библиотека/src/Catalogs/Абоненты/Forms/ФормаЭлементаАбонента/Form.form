@@ -61,8 +61,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Фамилия</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Фамилия</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ФамилияРасширеннаяПодсказка</name>
@@ -111,8 +113,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Имя</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Имя</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ИмяРасширеннаяПодсказка</name>
@@ -161,8 +165,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Отчество</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Отчество</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ОтчествоРасширеннаяПодсказка</name>
@@ -375,12 +381,12 @@
           <segments>КнигиНаРуках</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Choose</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Choose</excludedCommands>
-        <excludedCommands>SetDeletionMark</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>SetDeletionMark</excludedCommands>
         <items xsi:type="form:FormField">
           <name>КнигиНаРукахИнвентарныйНомер</name>
           <id>39</id>
@@ -389,8 +395,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.ИнвентарныйНомер</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.ИнвентарныйНомер</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КнигиНаРукахИнвентарныйНомерРасширеннаяПодсказка</name>
@@ -435,8 +443,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.Description</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.Description</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КнигиНаРукахНаименованиеРасширеннаяПодсказка</name>
@@ -481,8 +491,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.ДатаВыдачиКниги</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.ДатаВыдачиКниги</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КнигиНаРукахДатаВыдачиКнигиРасширеннаяПодсказка</name>
@@ -531,8 +543,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.ДнейНаРуках</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.ДнейНаРуках</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КнигиНаРукахДнейНаРукахРасширеннаяПодсказка</name>
@@ -613,7 +627,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>КнигиНаРукахСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -652,7 +665,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>КнигиНаРукахСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -692,7 +704,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>КнигиНаРукахУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Операция</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="fc08cb96-d3cb-4d06-a283-857982cab995">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Поступление книг</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="d12a74bb-d314-4fe5-b93b-637511dce609">
     <name>ВыдачаКнигиАбоненту</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Выдача книги абоненту</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="04a508cf-a1d8-4da6-b0e2-aebc45c23cda">
     <name>ВозвратКнигиАбонентом</name>
@@ -35,7 +32,6 @@
       <key>ru</key>
       <value>Возврат книги абонентом</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="74fbd3de-14c4-4525-97ac-710ea204613b">
     <name>СписаниеКниг</name>
@@ -43,6 +39,5 @@
       <key>ru</key>
       <value>Списание книг</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

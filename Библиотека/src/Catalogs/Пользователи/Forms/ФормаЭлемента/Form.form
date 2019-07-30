@@ -341,8 +341,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Description</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
+      </paths>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -397,8 +399,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПолноеНаименование</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ПолноеНаименование</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ПолноеНаименованиеРасширеннаяПодсказка</name>
@@ -447,8 +451,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ДоступКИнформационнойБазеРазрешен</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ДоступКИнформационнойБазеРазрешен</segments>
+      </paths>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>
@@ -504,8 +510,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ПользовательИнфБазыИмя</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ПользовательИнфБазыИмя</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ПользовательИнфБазыИмяРасширеннаяПодсказка</name>
@@ -554,8 +562,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Абонент</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.Абонент</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>АбонентРасширеннаяПодсказка</name>
@@ -607,8 +617,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИнфБазыАутентификацияСтандартная</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПользовательИнфБазыАутентификацияСтандартная</segments>
+              </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <handlers>
@@ -656,8 +668,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Пароль</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Пароль</segments>
+              </paths>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -714,8 +728,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПодтверждениеПароля</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПодтверждениеПароля</segments>
+              </paths>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -773,8 +789,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИнфБазыЗапрещеноИзменятьПароль</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПользовательИнфБазыЗапрещеноИзменятьПароль</segments>
+              </paths>
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
@@ -817,8 +835,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИнфБазыПоказыватьВСпискеВыбора</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПользовательИнфБазыПоказыватьВСпискеВыбора</segments>
+              </paths>
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
@@ -900,8 +920,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИнфБазыАутентификацияОС</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПользовательИнфБазыАутентификацияОС</segments>
+              </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <handlers>
@@ -949,8 +971,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИнфБазыПользовательОС</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПользовательИнфБазыПользовательОС</segments>
+              </paths>
             </dataPath>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
@@ -1046,8 +1070,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПредставлениеЯзыка</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПредставлениеЯзыка</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>ПредставлениеЯзыкаРасширеннаяПодсказка</name>
@@ -1099,8 +1125,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПредставлениеРежимаЗапуска</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПредставлениеРежимаЗапуска</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>ПредставлениеРежимаЗапускаРасширеннаяПодсказка</name>
@@ -1254,19 +1282,19 @@
           </dataPath>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>Tree</excludedCommands>
+          <excludedCommands>Add</excludedCommands>
           <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>List</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
           <excludedCommands>CopyToClipboard</excludedCommands>
           <excludedCommands>Delete</excludedCommands>
           <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>Add</excludedCommands>
+          <excludedCommands>HierarchicalList</excludedCommands>
+          <excludedCommands>List</excludedCommands>
           <excludedCommands>MoveDown</excludedCommands>
+          <excludedCommands>MoveUp</excludedCommands>
+          <excludedCommands>OutputList</excludedCommands>
+          <excludedCommands>SortListAsc</excludedCommands>
+          <excludedCommands>SortListDesc</excludedCommands>
+          <excludedCommands>Tree</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>РолиКолонок</name>
             <id>180</id>
@@ -1278,8 +1306,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Роли.Пометка</segments>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>Роли.Пометка</segments>
+                </paths>
               </dataPath>
               <handlers>
                 <event>OnChange</event>
@@ -1323,8 +1353,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Роли.Синоним</segments>
+              <dataPath xsi:type="form:MultiLanguageDataPath">
+                <paths xsi:type="form:DataPath">
+                  <segments>Роли.Синоним</segments>
+                </paths>
               </dataPath>
               <extendedTooltip>
                 <name>РолиСинонимРасширеннаяПодсказка</name>
@@ -1562,7 +1594,6 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>РолиСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1601,7 +1632,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>РолиСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
               <horizontalLocation>Left</horizontalLocation>
@@ -1641,7 +1671,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>РолиУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1838,6 +1867,10 @@
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
+    <event>OnLoadDataFromSettingsAtServer</event>
+    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -1847,10 +1880,6 @@
   </handlers>
   <handlers>
     <event>BeforeLoadDataFromSettingsAtServer</event>
-    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>OnLoadDataFromSettingsAtServer</event>
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>

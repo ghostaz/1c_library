@@ -10,22 +10,19 @@
     <key>ru</key>
     <value>Тип платформы</value>
   </synonym>
-  <comment></comment>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Order</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -37,7 +34,6 @@
       <key>ru</key>
       <value>Windows</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="33d65b70-4175-498c-8659-17a539924710">
     <name>Linux</name>
@@ -45,7 +41,6 @@
       <key>ru</key>
       <value>Linux</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="ba2ddfd4-144b-4fa1-8fe8-893a9381bf45">
     <name>MacOS</name>
@@ -53,6 +48,5 @@
       <key>ru</key>
       <value>Mac OS</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Каталог книг сервер</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
 </mdclass:CommonModule>

@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Импорт справочника книг из Excel</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ИмпортСправочникаКнигИзExcel.Form.Форма</defaultForm>
   <explanation>
@@ -22,7 +21,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -32,7 +30,6 @@
       <key>ru</key>
       <value>Импорт справочника книг из Excel</value>
     </synonym>
-    <comment></comment>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>

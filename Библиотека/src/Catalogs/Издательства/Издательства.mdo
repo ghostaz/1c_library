@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Издательства</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Издательства.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Издательства.StandardAttribute.Code</inputByString>
@@ -41,7 +40,6 @@
       <key>ru</key>
       <value>Форма элемента издательств</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -51,7 +49,6 @@
       <key>ru</key>
       <value>Форма списка издательств</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

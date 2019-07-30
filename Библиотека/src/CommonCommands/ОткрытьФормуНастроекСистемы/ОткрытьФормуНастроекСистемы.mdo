@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Настройки конфигурации</value>
   </synonym>
-  <comment></comment>
   <group>NavigationPanelOrdinary</group>
   <commandParameterType/>
   <representation>Auto</representation>

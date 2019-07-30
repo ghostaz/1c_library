@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Обновление конфигурации</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Constant.ВерсияКонфигурации</content>
   <content>CommonModule.ОбновлениеКонфигурацииКлиент</content>

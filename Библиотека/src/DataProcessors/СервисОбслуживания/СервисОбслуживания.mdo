@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Сервис обслуживания</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.СервисОбслуживания.Form.ФормаОбслуживанияИБ</defaultForm>
   <forms uuid="7c29e5bc-e275-490e-8957-5ac22245e51d">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Обслуживания базы</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -28,7 +26,6 @@
       <key>ru</key>
       <value>Сервис обслуживания</value>
     </synonym>
-    <comment></comment>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>

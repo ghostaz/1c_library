@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Возврат книг</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ВозвратКниг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -34,15 +33,14 @@
       <key>ru</key>
       <value>Абонент</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Абоненты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="79a86e5f-c5f5-4dbc-b11a-0bd5b2a731ab">
     <name>Комментарии</name>
@@ -50,18 +48,17 @@
       <key>ru</key>
       <value>Комментарии</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="ce5327dc-d0fa-4fe7-8f68-e0dd1f02b433">
     <name>ФормаДокументаВозвратКниг</name>
@@ -69,7 +66,6 @@
       <key>ru</key>
       <value>Форма документа возврат книг</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -83,20 +79,18 @@
       <key>ru</key>
       <value>Книги</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="85950253-b65b-4d7d-9784-e1b188b399a9">
       <name>Книга</name>
       <synonym>
         <key>ru</key>
         <value>Книга</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Книги</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>

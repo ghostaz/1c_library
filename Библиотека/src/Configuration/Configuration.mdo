@@ -5,22 +5,19 @@
     <key>ru</key>
     <value>Библиотека</value>
   </synonym>
-  <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1dc49a91-e2d7-416c-9d19-2cf67ddad242"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="81cdc511-dfcd-4f50-9d08-7ae36da7550e"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b1b8568a-8562-416f-8e43-0f87272e0100"/>
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="02fa3620-f792-400b-be62-3be062cb9c0d"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="041bd79e-385d-4605-8462-a0fa42297b50"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d679eb2c-63fc-43e2-bc5d-df7fcac15611"/>
-  <namePrefix></namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
   <version>1.0.5.2</version>
-  <updateCatalogAddress></updateCatalogAddress>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
@@ -40,7 +37,6 @@
       <key>ru</key>
       <value>Русский</value>
     </synonym>
-    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Справочники</subsystems>

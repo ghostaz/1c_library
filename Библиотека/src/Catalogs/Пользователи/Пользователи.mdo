@@ -12,93 +12,83 @@
     <key>ru</key>
     <value>Пользователи</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Predefined</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Owner</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Parent</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -122,14 +112,13 @@
       <key>ru</key>
       <value>Идентификатор пользователя ИБ</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>UUID</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="32e42b76-b3b9-49b2-83f7-8bdb060f02eb">
     <name>ПолноеНаименование</name>
@@ -137,20 +126,19 @@
       <key>ru</key>
       <value>Полное наименование</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>400</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b1342879-5ead-4e8d-a9a8-851560eb1773">
     <name>Абонент</name>
@@ -158,7 +146,6 @@
       <key>ru</key>
       <value>Абонент</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Абоненты</types>
     </type>
@@ -166,11 +153,11 @@
       <key>ru</key>
       <value>Связывает пользователя с абонентом. Нужно для подстановки в бизнес процесс</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="b81dc6fa-e190-4886-aa7f-9b0ef060a2b1">
     <name>ФормаВыбораПользователяОС</name>
@@ -178,7 +165,6 @@
       <key>ru</key>
       <value>Выбор пользователя операционной системы</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -193,7 +179,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>

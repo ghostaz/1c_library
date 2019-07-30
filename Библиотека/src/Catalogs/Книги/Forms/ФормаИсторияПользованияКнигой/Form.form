@@ -20,8 +20,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИсторияПользованияКнигой.Дата</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИсторияПользованияКнигой.Дата</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИсторияПользованияКнигойДатаРасширеннаяПодсказка</name>
@@ -66,8 +68,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИсторияПользованияКнигой.Операция</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИсторияПользованияКнигой.Операция</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИсторияПользованияКнигойОперацияРасширеннаяПодсказка</name>
@@ -112,8 +116,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИсторияПользованияКнигой.МестоРазмещения</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ИсторияПользованияКнигой.МестоРазмещения</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИсторияПользованияКнигойМестоРазмещенияРасширеннаяПодсказка</name>
@@ -195,7 +201,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ИсторияПользованияКнигойСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -234,7 +239,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ИсторияПользованияКнигойСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <horizontalLocation>Left</horizontalLocation>
@@ -274,7 +278,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ИсторияПользованияКнигойУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

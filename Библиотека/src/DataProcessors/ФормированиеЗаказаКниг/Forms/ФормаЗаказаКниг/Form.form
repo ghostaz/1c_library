@@ -61,7 +61,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>СписокКнигДляОтбораОтборСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -100,7 +99,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>СписокКнигДляОтбораОтборСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -140,7 +138,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>СписокКнигДляОтбораОтборУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -220,8 +217,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.Code</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.Code</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораКодExtendedTooltip</name>
@@ -266,8 +265,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.ИнвентарныйНомер</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.ИнвентарныйНомер</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораИнвентарныйНомерExtendedTooltip</name>
@@ -312,8 +313,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.Description</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.Description</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораНаименованиеExtendedTooltip</name>
@@ -357,8 +360,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.Издатель</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.Издатель</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораИздательExtendedTooltip</name>
@@ -403,8 +408,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.Страниц</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.Страниц</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораСтраницExtendedTooltip</name>
@@ -448,8 +455,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.ISBN</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.ISBN</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораISBNExtendedTooltip</name>
@@ -493,8 +502,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.ПолноеНаименование</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.ПолноеНаименование</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораПолноеНаименованиеExtendedTooltip</name>
@@ -538,8 +549,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.ИмеетсяКомпактДиск</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.ИмеетсяКомпактДиск</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораИмеетсяКомпактДискExtendedTooltip</name>
@@ -580,8 +593,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.ББК</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.ББК</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораББКExtendedTooltip</name>
@@ -625,8 +640,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.УДК</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.УДК</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораУДКExtendedTooltip</name>
@@ -670,8 +687,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.Описание</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.Описание</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораОписаниеExtendedTooltip</name>
@@ -715,8 +734,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокКнигДляОтбора.Диск</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокКнигДляОтбора.Диск</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокКнигДляОтбораДискExtendedTooltip</name>
@@ -797,7 +818,6 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>СписокКнигДляОтбораСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -836,7 +856,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>СписокКнигДляОтбораСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
               <horizontalLocation>Left</horizontalLocation>
@@ -876,7 +895,6 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>СписокКнигДляОтбораУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1199,8 +1217,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.КнигиКЗаказу.LineNumber</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.КнигиКЗаказу.LineNumber</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ЭтотОбъектКнигиКЗаказуНомерСтрокиExtendedTooltip</name>
@@ -1245,8 +1265,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.КнигиКЗаказу.Книга</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.КнигиКЗаказу.Книга</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ЭтотОбъектКнигиКЗаказуКнигаExtendedTooltip</name>
@@ -1335,7 +1357,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЭтотОбъектКнигиКЗаказуСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1374,7 +1395,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЭтотОбъектКнигиКЗаказуСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -1414,7 +1434,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЭтотОбъектКнигиКЗаказуУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

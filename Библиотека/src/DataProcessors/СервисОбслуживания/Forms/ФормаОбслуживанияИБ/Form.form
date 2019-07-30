@@ -258,8 +258,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СтатусРегистрации</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>СтатусРегистрации</segments>
+          </paths>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -358,8 +360,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>УникальныйИдентификаторБазыСтрока</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>УникальныйИдентификаторБазыСтрока</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>УникальныйИдентификаторБазыРасширеннаяПодсказка</name>
@@ -648,8 +652,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>РезультатПроверкиОбновления</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>РезультатПроверкиОбновления</segments>
+            </paths>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -738,8 +744,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ТекущаяВерсия</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ТекущаяВерсия</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ТекущаяВерсияРасширеннаяПодсказка</name>
@@ -784,8 +792,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ВерсияОбновления</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ВерсияОбновления</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ВерсияОбновленияРасширеннаяПодсказка</name>
@@ -831,8 +841,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ДатаВыпускаОбновления</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДатаВыпускаОбновления</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДатаВыпускаОбновленияРасширеннаяПодсказка</name>
@@ -878,8 +890,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СсылкаНаОбновление</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>СсылкаНаОбновление</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>СсылкаНаОбновлениеРасширеннаяПодсказка</name>
@@ -930,8 +944,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СсылкаНаОписаниеОбновления</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>СсылкаНаОписаниеОбновления</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>СсылкаНаОписаниеОбновленияРасширеннаяПодсказка</name>
@@ -982,8 +998,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ОписаниеОбновления</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ОписаниеОбновления</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ОписаниеОбновленияРасширеннаяПодсказка</name>

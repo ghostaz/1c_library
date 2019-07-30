@@ -11,8 +11,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.ИдентификаторКниги</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.ИдентификаторКниги</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИдентификаторКнигиРасширеннаяПодсказка</name>
@@ -61,8 +63,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.Наименование</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.Наименование</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеРасширеннаяПодсказка</name>
@@ -112,8 +116,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.Описание</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.Описание</segments>
+        </paths>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
@@ -165,8 +171,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.Автор</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.Автор</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>АвторРасширеннаяПодсказка</name>
@@ -216,8 +224,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.Издательство</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.Издательство</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИздательствоРасширеннаяПодсказка</name>
@@ -267,8 +277,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.ГодИздания</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.ГодИздания</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ГодИзданияРасширеннаяПодсказка</name>
@@ -321,8 +333,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.ISBN</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.ISBN</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ISBNРасширеннаяПодсказка</name>
@@ -372,8 +386,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.Штрихкод</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.Штрихкод</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ШтрихкодРасширеннаяПодсказка</name>
@@ -423,8 +439,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Запись.СсылкаНаСайт</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Запись.СсылкаНаСайт</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаНаСайтРасширеннаяПодсказка</name>
@@ -514,8 +532,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Картинка</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Картинка</segments>
+        </paths>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -637,10 +657,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnReadAtServer</event>
-    <name>ПриЧтенииНаСервере</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <autoFillCheck>true</autoFillCheck>
@@ -710,4 +726,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo">
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>
