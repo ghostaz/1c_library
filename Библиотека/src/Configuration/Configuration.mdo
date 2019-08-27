@@ -30,7 +30,7 @@
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.9</compatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
   <languages uuid="557b13a4-3419-4c36-8fa8-3e97c2ee16e1">
     <name>Русский</name>
     <synonym>
@@ -79,6 +79,7 @@
   <constants>Constant.МестоХраненияФайлов</constants>
   <constants>Constant.НаименованиеОрганизации</constants>
   <constants>Constant.ОтветственныйЗаВыдачуКниг</constants>
+  <constants>Constant.ИспользоватьГруппировкуКниг</constants>
   <constants>Constant.ПарольСервераОбслуживания</constants>
   <constants>Constant.ПользовательСервераОсблуживания</constants>
   <constants>Constant.ПространствоИменСервераОбслуживания</constants>

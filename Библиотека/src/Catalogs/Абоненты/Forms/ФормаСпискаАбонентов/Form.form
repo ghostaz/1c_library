@@ -286,9 +286,6 @@
     <rowsPicture xsi:type="core:PictureRef">
       <picture>CommonPicture.ИзображениеАбонента</picture>
     </rowsPicture>
-    <searchStringLocation>None</searchStringLocation>
-    <viewStatusLocation>None</viewStatusLocation>
-    <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>

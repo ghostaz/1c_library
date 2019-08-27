@@ -14,5 +14,9 @@
   <content>Enum.МестаХраненияФайлов</content>
   <content>Constant.МаксимальныйРазмерФайла</content>
   <content>Constant.ДопустимыеРасширенияФайлов</content>
+  <content>CommonModule.РаботаСФайламиВызовСервера</content>
+  <content>CommonModule.РаботаСФайламиКлиент</content>
+  <content>CommonModule.РаботаСФайламиКлиентСервер</content>
+  <content>CommonModule.РаботаСФайламиСервер</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

@@ -15,6 +15,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Книги.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Книги.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Книги.Attribute.ИнвентарныйНомер</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
@@ -22,6 +23,7 @@
     <key>ru</key>
     <value>Книга</value>
   </objectPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>5</codeLength>
@@ -343,15 +345,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="6eafb970-2bb8-4d04-8d18-aeae2105ef3d">
-    <name>ФормаСпискаКнигПользователя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка книг пользователя</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="f767df8c-5d36-4ba2-827c-843ad7bad868">
     <name>ФормаВыбора</name>
     <synonym>
@@ -377,13 +370,13 @@
       <value>Формуляр</value>
     </synonym>
   </templates>
-  <commands uuid="f4395f4a-ebe8-4e48-b70e-25e906160d94">
-    <name>ВозвратКниги</name>
+  <commands uuid="f655b088-c501-476b-acac-7b4d6e766d32">
+    <name>ПоступлениеКниги</name>
     <synonym>
       <key>ru</key>
-      <value>Возврат книги</value>
+      <value>Поступление книги</value>
     </synonym>
-    <comment>Команда позволяет выдать книгу в любом месте конфигурации</comment>
+    <comment>Команда позволяет сделать поступление выбранных книг</comment>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>CatalogRef.Книги</types>
@@ -397,6 +390,21 @@
     <synonym>
       <key>ru</key>
       <value>Выдача книги</value>
+    </synonym>
+    <comment>Команда позволяет выдать книгу в любом месте конфигурации</comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Книги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="f4395f4a-ebe8-4e48-b70e-25e906160d94">
+    <name>ВозвратКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат книги</value>
     </synonym>
     <comment>Команда позволяет выдать книгу в любом месте конфигурации</comment>
     <group>FormCommandBarImportant</group>
@@ -436,21 +444,6 @@
       <key>ru</key>
       <value>Печать формуляра книги</value>
     </toolTip>
-    <shortcut></shortcut>
-  </commands>
-  <commands uuid="f655b088-c501-476b-acac-7b4d6e766d32">
-    <name>ПоступлениеКниги</name>
-    <synonym>
-      <key>ru</key>
-      <value>Поступление книги</value>
-    </synonym>
-    <comment>Команда позволяет сделать поступление выбранных книг</comment>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>CatalogRef.Книги</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
     <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

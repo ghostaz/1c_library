@@ -14,54 +14,6 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ИнвентарныйНомер</name>
-      <id>11</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ИнвентарныйНомер</segments>
-        </paths>
-      </dataPath>
-      <extendedTooltip>
-        <name>ИнвентарныйНомерРасширеннаяПодсказка</name>
-        <id>13</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИнвентарныйНомерКонтекстноеМеню</name>
-        <id>12</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>5</id>
       <visible>true</visible>
@@ -93,6 +45,54 @@
       <contextMenu>
         <name>НаименованиеКонтекстноеМеню</name>
         <id>6</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ИнвентарныйНомер</name>
+      <id>11</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.ИнвентарныйНомер</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>ИнвентарныйНомерРасширеннаяПодсказка</name>
+        <id>13</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИнвентарныйНомерКонтекстноеМеню</name>
+        <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -270,7 +270,6 @@
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
-    <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
       <id>3</id>
@@ -420,6 +419,7 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
+    <representation>Tree</representation>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -442,14 +442,8 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.НомерКартинки</segments>
+      <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
-    <rowsPicture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ИзображениеКниги</picture>
-    </rowsPicture>
-    <searchStringLocation>None</searchStringLocation>
-    <viewStatusLocation>None</viewStatusLocation>
-    <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -474,6 +468,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -567,9 +565,6 @@
       </paths>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.DefaultPicture</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Description</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -587,7 +582,12 @@
 	ВложенныйЗапрос.МестоРазмещения КАК Абонент,
 	РАЗНОСТЬДАТ(ВложенныйЗапрос.Период, &amp;ТекущаяДата, ДЕНЬ) КАК ДнейНаРуках,
 	ВложенныйЗапрос.Период КАК ДатаВыдачиКниги,
-	0 КАК НомерКартинки
+	ВЫБОР
+		КОГДА СправочникКниги.ЭтоГруппа
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК НомерКартинки,
+	СправочникКниги.ЭтоГруппа
 ИЗ
 	Справочник.Книги КАК СправочникКниги
 		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
@@ -595,19 +595,18 @@
 			КнигиВБиблиотеке.Книга КАК Книга,
 			КнигиВБиблиотеке.МестоРазмещения КАК МестоРазмещения,
 			СУММА(ВЫБОР
-					КОГДА КнигиВБиблиотеке.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Приход)
-						ТОГДА КнигиВБиблиотеке.Количество
-					ИНАЧЕ -КнигиВБиблиотеке.Количество
-				КОНЕЦ) КАК Количество
+				КОГДА КнигиВБиблиотеке.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Приход)
+					ТОГДА КнигиВБиблиотеке.Количество
+				ИНАЧЕ -КнигиВБиблиотеке.Количество
+			КОНЕЦ) КАК Количество
 		ИЗ
 			РегистрНакопления.КнигиВБиблиотеке КАК КнигиВБиблиотеке
-		
 		СГРУППИРОВАТЬ ПО
 			КнигиВБиблиотеке.Книга,
 			КнигиВБиблиотеке.МестоРазмещения) КАК ВложенныйЗапрос
 		ПО (ВложенныйЗапрос.Книга = СправочникКниги.Ссылка)
-			И (ВложенныйЗапрос.Количество = 1)
-			И (НЕ ВложенныйЗапрос.МестоРазмещения = ЗНАЧЕНИЕ(Справочник.МестаРазмещения.Библиотека))</queryText>
+		И (ВложенныйЗапрос.Количество = 1)
+		И (НЕ ВложенныйЗапрос.МестоРазмещения = ЗНАЧЕНИЕ(Справочник.МестаРазмещения.Библиотека))</queryText>
       <mainTable>Catalog.Книги</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -615,6 +614,23 @@
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьГруппировкуКниг</name>
+    <title>
+      <key>ru</key>
+      <value>Использовать группировку книг</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
