@@ -17,7 +17,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.6.2</version>
+  <version>1.0.6.3</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
@@ -59,10 +59,10 @@
   <commonModules>CommonModule.КаталогКнигСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеКонфигурацииКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеКонфигурацииСервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
-  <commonModules>CommonModule.ПользователиПереопределяемый</commonModules>
   <commonModules>CommonModule.РаботаСФайламиВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСФайламиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСФайламиКлиентСервер</commonModules>

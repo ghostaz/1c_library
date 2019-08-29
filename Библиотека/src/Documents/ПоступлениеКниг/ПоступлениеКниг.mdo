@@ -22,7 +22,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <auxiliaryObjectForm>Document.ПоступлениеКниг.Form.ФормаДокументаПоступлениеКниг</auxiliaryObjectForm>
-  <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
   <registerRecords>AccumulationRegister.КнигиВБиблиотеке</registerRecords>

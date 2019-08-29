@@ -20,6 +20,6 @@
   <content>Sequence.ДвиженияКниг</content>
   <content>Enum.Операция</content>
   <content>AccumulationRegister.КнигиВБиблиотеке</content>
-  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.ОбщегоНазначенияСервер</content>
   <content>Document.СписаниеКниг</content>
 </mdclass:Subsystem>

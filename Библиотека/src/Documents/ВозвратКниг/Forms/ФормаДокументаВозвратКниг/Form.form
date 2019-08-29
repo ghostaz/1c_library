@@ -467,6 +467,36 @@
         <name>ГруппаКнопок</name>
         <id>23</id>
         <items xsi:type="form:Button">
+          <name>КнигиПодборКниг</name>
+          <id>49</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КнигиПодборКнигРасширеннаяПодсказка</name>
+            <id>50</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ПодборКниг</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
           <name>ЗаполнитьПоЗадолженности</name>
           <id>24</id>
           <visible>true</visible>
@@ -536,6 +566,10 @@
     <handlers>
       <event>OnEditEnd</event>
       <name>КнигиПриОкончанииРедактирования</name>
+    </handlers>
+    <handlers>
+      <event>ChoiceProcessing</event>
+      <name>КнигиОбработкаВыбора</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -764,10 +798,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -842,6 +872,23 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ПодборКниг</name>
+    <title>
+      <key>ru</key>
+      <value>Подбор книг</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПодборКниг</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <parameters>
     <name>МассивКниг</name>
     <valueType/>
@@ -851,6 +898,10 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

@@ -10,7 +10,6 @@
   <content>Role.Абонент</content>
   <content>Role.Пользователь</content>
   <content>SessionParameter.ТекущийПользователь</content>
-  <content>CommonModule.ПользователиПереопределяемый</content>
   <content>CommonModule.Пользователи</content>
   <content>CommonModule.БСП</content>
   <content>Role.ПользовательСОграничениемНаУдаление</content>
