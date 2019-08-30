@@ -5,10 +5,10 @@
     <valueManagerType typeId="876d2128-fade-4ee3-9648-2a482ddc45cc" valueTypeId="06324bcf-b5c5-43c3-b8f6-c4b8a409e4bb"/>
     <valueKeyType typeId="d5009c1a-77c8-51d7-9848-c4792e94556d" valueTypeId="d44e72fe-c5c5-552d-b636-c48e1efcab26"/>
   </producedTypes>
-  <name>ПользовательСервераОсблуживания</name>
+  <name>ПользовательСервераОбслуживания</name>
   <synonym>
     <key>ru</key>
-    <value>Пользователь сервера осблуживания</value>
+    <value>Пользователь сервера обслуживания</value>
   </synonym>
   <type>
     <types>String</types>

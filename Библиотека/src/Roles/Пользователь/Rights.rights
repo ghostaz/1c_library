@@ -919,7 +919,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ПользовательСервераОсблуживания</name>
+		<name>Constant.ПользовательСервераОбслуживания</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

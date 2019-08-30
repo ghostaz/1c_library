@@ -17,7 +17,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.6.4</version>
+  <version>1.0.6.5</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
@@ -43,13 +43,13 @@
   <subsystems>Subsystem.ДвиженияКниг</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.ИзображениеАбонента</commonPictures>
+  <commonPictures>CommonPicture.ИзображениеКниги</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаДвиженияКниг</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаКаталогКниг</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаОтчеты</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаДвиженияКниг</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
-  <commonPictures>CommonPicture.ИзображениеКниги</commonPictures>
-  <commonPictures>CommonPicture.ИзображениеАбонента</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаКаталогКниг</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Абонент</roles>
   <roles>Role.ПолныеПрава</roles>
@@ -74,14 +74,14 @@
   <constants>Constant.ДопустимыеРасширенияФайлов</constants>
   <constants>Constant.ИмяПортаСервераОбслуживания</constants>
   <constants>Constant.ИмяСервисаСервераОбслуживания</constants>
+  <constants>Constant.ИспользоватьГруппировкуКниг</constants>
   <constants>Constant.ИспользоватьКаталогКниг</constants>
   <constants>Constant.МаксимальныйРазмерФайла</constants>
   <constants>Constant.МестоХраненияФайлов</constants>
   <constants>Constant.НаименованиеОрганизации</constants>
   <constants>Constant.ОтветственныйЗаВыдачуКниг</constants>
-  <constants>Constant.ИспользоватьГруппировкуКниг</constants>
   <constants>Constant.ПарольСервераОбслуживания</constants>
-  <constants>Constant.ПользовательСервераОсблуживания</constants>
+  <constants>Constant.ПользовательСервераОбслуживания</constants>
   <constants>Constant.ПространствоИменСервераОбслуживания</constants>
   <constants>Constant.ПутьКФайламНаДиске</constants>
   <constants>Constant.СсылкаНаОписаниеВебСервисовСервераОбслуживания</constants>
@@ -108,9 +108,9 @@
   <reports>Report.ИсторияПользованияКнигами</reports>
   <reports>Report.ОстаткиКниг</reports>
   <dataProcessors>DataProcessor.ИмпортСправочникаКнигИзExcel</dataProcessors>
-  <dataProcessors>DataProcessor.ФормированиеЗаказаКниг</dataProcessors>
   <dataProcessors>DataProcessor.ОбновлениеКонфигурации</dataProcessors>
   <dataProcessors>DataProcessor.СервисОбслуживания</dataProcessors>
+  <dataProcessors>DataProcessor.ФормированиеЗаказаКниг</dataProcessors>
   <informationRegisters>InformationRegister.ДополнительныеСвойства</informationRegisters>
   <informationRegisters>InformationRegister.КаталогКниг</informationRegisters>
   <accumulationRegisters>AccumulationRegister.КнигиВБиблиотеке</accumulationRegisters>

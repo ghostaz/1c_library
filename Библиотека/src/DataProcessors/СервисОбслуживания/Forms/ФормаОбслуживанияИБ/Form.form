@@ -350,7 +350,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаИДиКНопка</name>
+        <name>ГруппаИДиКнопка</name>
         <id>43</id>
         <items xsi:type="form:FormField">
           <name>УникальныйИдентификаторБазы</name>
@@ -454,7 +454,7 @@
         </title>
         <groupHorizontalAlign>Center</groupHorizontalAlign>
         <extendedTooltip>
-          <name>ГруппаИДиКНопкаРасширеннаяПодсказка</name>
+          <name>ГруппаИДиКнопкаРасширеннаяПодсказка</name>
           <id>152</id>
           <visible>true</visible>
           <enabled>true</enabled>

@@ -182,7 +182,7 @@
     <name>ФормаЭлементаАбонента</name>
     <synonym>
       <key>ru</key>
-      <value>Карочка абонента</value>
+      <value>Карточка абонента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

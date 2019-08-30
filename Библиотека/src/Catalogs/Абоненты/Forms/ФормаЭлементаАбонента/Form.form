@@ -286,15 +286,19 @@
     <name>ГруппаЛиния</name>
     <id>18</id>
     <items xsi:type="form:Decoration">
-      <name>ДекорацияДлялинии</name>
+      <name>ДекорацияДляЛинии</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация для линии</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияДлялинииРасширеннаяПодсказка</name>
+        <name>ДекорацияДляЛинииРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -309,7 +313,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДекорацияДлялинииКонтекстноеМеню</name>
+        <name>ДекорацияДляЛинииКонтекстноеМеню</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>

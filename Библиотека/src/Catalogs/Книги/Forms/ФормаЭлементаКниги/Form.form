@@ -1912,7 +1912,7 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаУстановитьИнветарныйНомер</name>
+      <name>ФормаУстановитьИнвентарныйНомер</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1920,7 +1920,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаУстановитьИнветарныйНомерExtendedTooltip</name>
+        <name>ФормаУстановитьИнвентарныйНомерРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>

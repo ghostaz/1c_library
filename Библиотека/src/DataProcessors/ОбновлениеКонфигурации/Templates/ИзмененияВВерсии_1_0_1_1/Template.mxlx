@@ -927,7 +927,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>В карточку абонента добавлена картика абонента и список книг на руках</v8:content>
+							<v8:content>В карточку абонента добавлена картинка абонента и список книг на руках</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -989,7 +989,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>В карточку книги добавлен рисунк книги</v8:content>
+							<v8:content>В карточку книги добавлен рисунок книги</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1051,7 +1051,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>В списках книг и абонентов добалвена картинка строки</v8:content>
+							<v8:content>В списках книг и абонентов добавлена картинка строки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1237,7 +1237,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Удален критерий отбра по автору за ненадобностью</v8:content>
+							<v8:content>Удален критерий отбора по автору за ненадобностью</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1484,7 +1484,6 @@
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>20</defaultFormatIndex>
 	<height>26</height>
-	<vgRows>26</vgRows>
 	<merge>
 		<r>2</r>
 		<c>1</c>
