@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Движения книг</value>
   </synonym>
-  <comment></comment>
   <documents>Document.ВыдачаКниг</documents>
   <documents>Document.ВозвратКниг</documents>
   <documents>Document.ПоступлениеКниг</documents>

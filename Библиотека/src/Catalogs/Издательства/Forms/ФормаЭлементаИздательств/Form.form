@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Code</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Code</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КодРасширеннаяПодсказка</name>
@@ -58,8 +60,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Description</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -114,6 +118,13 @@
         <segments>КнигиИздательства</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
+      <excludedCommands>CreateFolder</excludedCommands>
+      <excludedCommands>List</excludedCommands>
+      <excludedCommands>HierarchicalList</excludedCommands>
+      <excludedCommands>Tree</excludedCommands>
+      <excludedCommands>MoveItem</excludedCommands>
+      <excludedCommands>LevelUp</excludedCommands>
+      <excludedCommands>LevelDown</excludedCommands>
       <items xsi:type="form:FormField">
         <name>КнигиИздательстваКнига</name>
         <id>25</id>
@@ -122,8 +133,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиИздательства.Книга</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиИздательства.Книга</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КнигиИздательстваКнигаРасширеннаяПодсказка</name>
@@ -161,6 +174,56 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
+        <name>КнигиИздательстваИнвентарныйНомер</name>
+        <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КнигиИздательства.ИнвентарныйНомер</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>КнигиИздательстваИнвентарныйНомерРасширеннаяПодсказка</name>
+          <id>33</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КнигиИздательстваИнвентарныйНомерКонтекстноеМеню</name>
+          <id>32</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>КнигиИздательстваГодИздания</name>
         <id>22</id>
         <visible>true</visible>
@@ -168,8 +231,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиИздательства.ГодИздания</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиИздательства.ГодИздания</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КнигиИздательстваГодИзданияРасширеннаяПодсказка</name>
@@ -218,8 +283,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиИздательства.МестоРазмещения</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиИздательства.МестоРазмещения</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КнигиИздательстваМестоРазмещенияРасширеннаяПодсказка</name>
@@ -300,7 +367,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>КнигиИздательстваСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -339,7 +405,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>КнигиИздательстваСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <horizontalLocation>Left</horizontalLocation>
@@ -379,7 +444,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>КнигиИздательстваУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -409,7 +473,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <representation>HierarchicalList</representation>
       <changeRowSet>true</changeRowSet>
       <changeRowOrder>true</changeRowOrder>
       <autoMaxWidth>true</autoMaxWidth>
@@ -544,12 +607,13 @@
 	0 КАК НомерКартинки,
 	Книги.ГодИздания КАК ГодИздания,
 	КнигиВБиблиотекеОстатки.МестоРазмещения КАК МестоРазмещения,
-	Книги.Издательство КАК Издательство
+	Книги.Издательство КАК Издательство,
+	Книги.ИнвентарныйНомер
 ИЗ
 	Справочник.Книги КАК Книги
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.КнигиВБиблиотеке.Остатки КАК КнигиВБиблиотекеОстатки
 		ПО (КнигиВБиблиотекеОстатки.Книга = Книги.Ссылка)
-			И (КнигиВБиблиотекеОстатки.КоличествоОстаток = 1)
+		И (КнигиВБиблиотекеОстатки.КоличествоОстаток = 1)
 ГДЕ
 	Книги.Издательство &lt;> ЗНАЧЕНИЕ(Справочник.Издательства.ПустаяСсылка)</queryText>
       <mainTable>Catalog.Книги</mainTable>

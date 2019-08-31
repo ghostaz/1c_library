@@ -13,14 +13,12 @@
     <key>ru</key>
     <value>Книги в библиотеке</value>
   </synonym>
-  <comment></comment>
   <resources uuid="bfcdd42a-fa72-4db4-a7e2-7cd32bc143d6">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
       <value>Количество</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -28,7 +26,6 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -39,11 +36,9 @@
       <key>ru</key>
       <value>Операция</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.Операция</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
@@ -55,11 +50,9 @@
       <key>ru</key>
       <value>Книга</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Книги</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
@@ -73,12 +66,10 @@
       <key>ru</key>
       <value>Место размещения</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Абоненты</types>
       <types>CatalogRef.МестаРазмещения</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>

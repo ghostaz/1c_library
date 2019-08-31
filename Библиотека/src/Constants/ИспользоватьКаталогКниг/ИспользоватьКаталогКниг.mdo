@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="8c5924d0-4652-436f-bade-f2d88d61b208" valueTypeId="ec2ccefa-19b2-41f9-a9ae-b515d76fc79b"/>
     <valueManagerType typeId="5cbca0ab-3595-42a6-9f12-08f914353d60" valueTypeId="b57dad63-049e-405b-8cee-96c94c9c0601"/>
+    <valueKeyType typeId="def7331e-5861-5bae-a126-fad6b2785844" valueTypeId="5210f791-fb83-5937-a58e-6223293ca986"/>
   </producedTypes>
   <name>ИспользоватьКаталогКниг</name>
   <synonym>
     <key>ru</key>
     <value>Использовать каталог книг</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

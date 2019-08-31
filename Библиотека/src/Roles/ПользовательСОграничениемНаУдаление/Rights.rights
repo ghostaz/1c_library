@@ -807,7 +807,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ПользовательСервераОсблуживания</name>
+		<name>Constant.ПользовательСервераОбслуживания</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1027,6 +1027,13 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьГруппировкуКниг</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Движения книг</value>
   </synonym>
-  <comment></comment>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ПодсистемаДвиженияКниг</picture>
@@ -21,6 +20,6 @@
   <content>Sequence.ДвиженияКниг</content>
   <content>Enum.Операция</content>
   <content>AccumulationRegister.КнигиВБиблиотеке</content>
-  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.ОбщегоНазначенияСервер</content>
   <content>Document.СписаниеКниг</content>
 </mdclass:Subsystem>

@@ -18,8 +18,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.НаименованиеОрганизации</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.НаименованиеОрганизации</segments>
+          </paths>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -71,8 +73,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ОтветственныйЗаВыдачуКниг</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.ОтветственныйЗаВыдачуКниг</segments>
+          </paths>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -115,6 +119,57 @@
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
         </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИспользоватьГруппировкуКниг</name>
+        <id>148</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ИспользоватьГруппировкуКниг</segments>
+        </dataPath>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ИспользоватьГруппировкуКнигПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИспользоватьГруппировкуКнигРасширеннаяПодсказка</name>
+          <id>150</id>
+          <title>
+            <key>ru</key>
+            <value>Изменения вступят в силу после повторного открытия форм.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИспользоватьГруппировкуКнигКонтекстноеМеню</name>
+          <id>149</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -161,8 +216,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.МестоХраненияФайлов</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.МестоХраненияФайлов</segments>
+          </paths>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -208,8 +265,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ПутьКФайламНаДиске</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.ПутьКФайламНаДиске</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПутьКФайламНаДискеРасширеннаяПодсказка</name>
@@ -267,8 +326,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.МаксимальныйРазмерФайла</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.МаксимальныйРазмерФайла</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>МаксимальныйРазмерФайлаРасширеннаяПодсказка</name>
@@ -398,8 +459,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ДопустимыеРасширенияФайлов</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.ДопустимыеРасширенияФайлов</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДопустимыеРасширенияФайловРасширеннаяПодсказка</name>
@@ -452,8 +515,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ВсегоЗагруженоФайлов</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ВсегоЗагруженоФайлов</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ВсегоЗагруженоФайловРасширеннаяПодсказка</name>
@@ -506,8 +571,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ОбщийРазмерЗагруженныхФайлов</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ОбщийРазмерЗагруженныхФайлов</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>ОбщийРазмерЗагруженныхФайловРасширеннаяПодсказка</name>
@@ -640,8 +707,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>КоличествоФайловДругимМестоХранения</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>КоличествоФайловДругимМестоХранения</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>КоличествоФайловДругимМестоХраненияРасширеннаяПодсказка</name>
@@ -834,8 +903,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ИспользоватьКаталогКниг</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьКаталогКниг</segments>
+          </paths>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTip>
@@ -1073,8 +1144,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КоличествоКнигВКаталоге</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КоличествоКнигВКаталоге</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КоличествоКнигВКаталогеРасширеннаяПодсказка</name>
@@ -1263,9 +1336,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>НаборКонстант.МестоХраненияФайлов.Ref</segments>
-    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
   </attributes>

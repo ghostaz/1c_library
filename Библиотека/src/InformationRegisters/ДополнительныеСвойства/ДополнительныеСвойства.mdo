@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Дополнительные свойства</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <resources uuid="f121d4fe-6680-4729-9877-404b81f6751b">
     <name>Значение</name>
@@ -22,11 +21,9 @@
       <key>ru</key>
       <value>Значение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Characteristic.ДополнительныеСвойства</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -39,6 +36,7 @@
       <field>InformationRegister.ДополнительныеСвойства.Dimension.Свойство</field>
     </linkByType>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="cc576490-b8b5-4b8c-993b-ff1cf85f38ff">
@@ -47,15 +45,14 @@
       <key>ru</key>
       <value>Книга</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Книги</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
@@ -67,16 +64,15 @@
       <key>ru</key>
       <value>Свойство</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ChartOfCharacteristicTypesRef.ДополнительныеСвойства</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>Use</quickChoice>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>

@@ -12,10 +12,10 @@
     <key>ru</key>
     <value>Книги</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Книги.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Книги.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Книги.Attribute.ИнвентарныйНомер</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
@@ -23,6 +23,7 @@
     <key>ru</key>
     <value>Книга</value>
   </objectPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>5</codeLength>
@@ -42,7 +43,6 @@
       <key>ru</key>
       <value>Страниц</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -50,11 +50,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="7acce412-043d-4417-acee-368138d12388">
     <name>Издательство</name>
@@ -62,15 +62,14 @@
       <key>ru</key>
       <value>Издательство</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Издательства</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d54d9be4-504e-418f-80a8-2542b9d5b11b">
     <name>ISBN</name>
@@ -78,18 +77,17 @@
       <key>ru</key>
       <value>ISBN</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>20</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="3441e19f-7557-491c-b2c5-fef181be7605">
     <name>ПолноеНаименование</name>
@@ -97,19 +95,18 @@
       <key>ru</key>
       <value>Полное наименование</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>400</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2bd64cac-7b33-4421-bdf4-7b4411190fce">
     <name>ИнвентарныйНомер</name>
@@ -117,19 +114,18 @@
       <key>ru</key>
       <value>Инвентарный номер</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>10</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d794a6f5-4556-4682-8902-48e33bfaeed7">
     <name>ИмеетсяКомпактДиск</name>
@@ -137,15 +133,14 @@
       <key>ru</key>
       <value>Имеется компакт диск</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="5c6ba6a2-e500-44ba-8b9b-5ec047cba06a">
     <name>ББК</name>
@@ -153,18 +148,17 @@
       <key>ru</key>
       <value>ББК</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>20</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ce23e712-fa49-44c4-96b2-aec2f57ab60a">
     <name>УДК</name>
@@ -172,18 +166,17 @@
       <key>ru</key>
       <value>УДК</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>20</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="5cabc02e-09ed-40c9-829a-5734d9192caf">
     <name>Описание</name>
@@ -191,16 +184,15 @@
       <key>ru</key>
       <value>Описание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="350e28ed-4b0b-470b-b002-b5a5a89392a8">
     <name>Диск</name>
@@ -208,15 +200,14 @@
       <key>ru</key>
       <value>Диск</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Диски</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="9dfcb3d3-a4f8-4ab2-80f7-72efbf9464eb">
     <name>ГодИздания</name>
@@ -224,18 +215,17 @@
       <key>ru</key>
       <value>Год издания</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Date</types>
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8360b496-dda3-4bb6-90a6-4bbf45dc6807">
     <name>Версия</name>
@@ -243,20 +233,19 @@
       <key>ru</key>
       <value>Версия</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>10</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f5f92d31-08b7-4af2-8070-3eef07019033">
     <name>Штрихкод</name>
@@ -264,20 +253,19 @@
       <key>ru</key>
       <value>Штрихкод</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="46ea3bff-783a-4bd7-a4f9-6a4ba403b0f8">
     <name>Тираж</name>
@@ -285,7 +273,6 @@
       <key>ru</key>
       <value>Тираж</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -293,11 +280,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="11dcbda5-ee3d-41a6-9420-362ffb8b6f5f">
     <name>Обложка</name>
@@ -305,15 +292,14 @@
       <key>ru</key>
       <value>Обложка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Файлы</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="dacffc85-facd-4322-9417-1e0aa1710188">
     <producedTypes>
@@ -325,20 +311,18 @@
       <key>ru</key>
       <value>Авторы</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="641e3df9-7383-45ee-87ab-7b405e2c9795">
       <name>Автор</name>
       <synonym>
         <key>ru</key>
         <value>Автор</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Авторы</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -349,7 +333,6 @@
       <key>ru</key>
       <value>Карточка книги</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -359,17 +342,6 @@
       <key>ru</key>
       <value>Список книг</value>
     </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="6eafb970-2bb8-4d04-8d18-aeae2105ef3d">
-    <name>ФормаСпискаКнигПользователя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка книг пользователя</value>
-    </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -379,7 +351,6 @@
       <key>ru</key>
       <value>Форма выбора</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -389,7 +360,6 @@
       <key>ru</key>
       <value>История пользования книгой</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -399,15 +369,14 @@
       <key>ru</key>
       <value>Формуляр</value>
     </synonym>
-    <comment></comment>
   </templates>
-  <commands uuid="f4395f4a-ebe8-4e48-b70e-25e906160d94">
-    <name>ВозвратКниги</name>
+  <commands uuid="f655b088-c501-476b-acac-7b4d6e766d32">
+    <name>ПоступлениеКниги</name>
     <synonym>
       <key>ru</key>
-      <value>Возврат книги</value>
+      <value>Поступление книги</value>
     </synonym>
-    <comment>Команда позволяет выдать книгу в любом месте конфигурации</comment>
+    <comment>Команда позволяет сделать поступление выбранных книг</comment>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>CatalogRef.Книги</types>
@@ -431,13 +400,27 @@
     <representation>Auto</representation>
     <shortcut></shortcut>
   </commands>
+  <commands uuid="f4395f4a-ebe8-4e48-b70e-25e906160d94">
+    <name>ВозвратКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат книги</value>
+    </synonym>
+    <comment>Команда позволяет выдать книгу в любом месте конфигурации</comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Книги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
   <commands uuid="d68ed382-9fa1-400e-b88e-67e85c2fa1cf">
     <name>ИсторияПользованияКнигой</name>
     <synonym>
       <key>ru</key>
       <value>История пользования книгой</value>
     </synonym>
-    <comment></comment>
     <group>FormNavigationPanelGoTo</group>
     <commandParameterType>
       <types>CatalogRef.Книги</types>
@@ -451,7 +434,6 @@
       <key>ru</key>
       <value>Печать формуляра</value>
     </synonym>
-    <comment></comment>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>CatalogRef.Книги</types>
@@ -462,21 +444,6 @@
       <key>ru</key>
       <value>Печать формуляра книги</value>
     </toolTip>
-    <shortcut></shortcut>
-  </commands>
-  <commands uuid="f655b088-c501-476b-acac-7b4d6e766d32">
-    <name>ПоступлениеКниги</name>
-    <synonym>
-      <key>ru</key>
-      <value>Поступление книги</value>
-    </synonym>
-    <comment>Команда позволяет сделать поступление выбранных книг</comment>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>CatalogRef.Книги</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
     <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

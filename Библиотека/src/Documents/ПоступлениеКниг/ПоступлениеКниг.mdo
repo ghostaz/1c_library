@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Поступление книг</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПоступлениеКниг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -23,7 +22,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <auxiliaryObjectForm>Document.ПоступлениеКниг.Form.ФормаДокументаПоступлениеКниг</auxiliaryObjectForm>
-  <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
   <registerRecords>AccumulationRegister.КнигиВБиблиотеке</registerRecords>
@@ -33,18 +31,17 @@
       <key>ru</key>
       <value>Комментарии</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="23196d75-3d90-4ba4-937c-23fb0936964b">
     <name>ФормаДокументаПоступлениеКниг</name>
@@ -52,7 +49,6 @@
       <key>ru</key>
       <value>Форма документа поступление книг</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -66,20 +62,18 @@
       <key>ru</key>
       <value>Книги</value>
     </synonym>
-    <comment></comment>
     <attributes uuid="ce66411d-7aa9-460f-9ed7-088a60547b24">
       <name>Книга</name>
       <synonym>
         <key>ru</key>
         <value>Книга</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Книги</types>
       </type>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>

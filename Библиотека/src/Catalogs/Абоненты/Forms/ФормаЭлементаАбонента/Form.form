@@ -61,8 +61,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Фамилия</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Фамилия</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ФамилияРасширеннаяПодсказка</name>
@@ -111,8 +113,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Имя</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Имя</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ИмяРасширеннаяПодсказка</name>
@@ -161,8 +165,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Отчество</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Отчество</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ОтчествоРасширеннаяПодсказка</name>
@@ -280,15 +286,19 @@
     <name>ГруппаЛиния</name>
     <id>18</id>
     <items xsi:type="form:Decoration">
-      <name>ДекорацияДлялинии</name>
+      <name>ДекорацияДляЛинии</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация для линии</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияДлялинииРасширеннаяПодсказка</name>
+        <name>ДекорацияДляЛинииРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -303,7 +313,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДекорацияДлялинииКонтекстноеМеню</name>
+        <name>ДекорацияДляЛинииКонтекстноеМеню</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -375,58 +385,19 @@
           <segments>КнигиНаРуках</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Choose</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Choose</excludedCommands>
-        <excludedCommands>SetDeletionMark</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Delete</excludedCommands>
-        <items xsi:type="form:FormField">
-          <name>КнигиНаРукахИнвентарныйНомер</name>
-          <id>39</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.ИнвентарныйНомер</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>КнигиНаРукахИнвентарныйНомерРасширеннаяПодсказка</name>
-            <id>41</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>КнигиНаРукахИнвентарныйНомерКонтекстноеМеню</name>
-            <id>40</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-          </extInfo>
-        </items>
+        <excludedCommands>SetDeletionMark</excludedCommands>
+        <excludedCommands>CreateFolder</excludedCommands>
+        <excludedCommands>List</excludedCommands>
+        <excludedCommands>HierarchicalList</excludedCommands>
+        <excludedCommands>Tree</excludedCommands>
+        <excludedCommands>MoveItem</excludedCommands>
+        <excludedCommands>LevelUp</excludedCommands>
+        <excludedCommands>LevelDown</excludedCommands>
         <items xsi:type="form:FormField">
           <name>КнигиНаРукахНаименование</name>
           <id>27</id>
@@ -435,8 +406,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.Description</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.Description</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КнигиНаРукахНаименованиеРасширеннаяПодсказка</name>
@@ -474,6 +447,54 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
+          <name>КнигиНаРукахИнвентарныйНомер</name>
+          <id>39</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.ИнвентарныйНомер</segments>
+            </paths>
+          </dataPath>
+          <extendedTooltip>
+            <name>КнигиНаРукахИнвентарныйНомерРасширеннаяПодсказка</name>
+            <id>41</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КнигиНаРукахИнвентарныйНомерКонтекстноеМеню</name>
+            <id>40</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>КнигиНаРукахДатаВыдачиКниги</name>
           <id>33</id>
           <visible>true</visible>
@@ -481,8 +502,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.ДатаВыдачиКниги</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.ДатаВыдачиКниги</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КнигиНаРукахДатаВыдачиКнигиРасширеннаяПодсказка</name>
@@ -531,8 +554,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КнигиНаРуках.ДнейНаРуках</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>КнигиНаРуках.ДнейНаРуках</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>КнигиНаРукахДнейНаРукахРасширеннаяПодсказка</name>
@@ -613,7 +638,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>КнигиНаРукахСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -652,7 +676,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>КнигиНаРукахСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -692,7 +715,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>КнигиНаРукахУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -722,7 +744,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <representation>HierarchicalList</representation>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>

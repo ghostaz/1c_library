@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Каталог книг</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.КаталогКниг.Form.ФормаЗаписиКаталогаКниг</defaultRecordForm>
@@ -25,17 +24,16 @@
       <key>ru</key>
       <value>Наименование</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -46,15 +44,14 @@
       <key>ru</key>
       <value>Описание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -65,17 +62,16 @@
       <key>ru</key>
       <value>Штрихкод</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>13</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="7723ffb6-7420-48cf-a4b5-8cdc05af0659">
@@ -84,17 +80,16 @@
       <key>ru</key>
       <value>Автор</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -105,17 +100,16 @@
       <key>ru</key>
       <value>Издательство</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -133,10 +127,10 @@
         <length>13</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="abbb25c4-2921-495a-816e-5e987b653a67">
@@ -152,10 +146,10 @@
         <length>13</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
   </resources>
@@ -165,17 +159,16 @@
       <key>ru</key>
       <value>Год издания</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>4</precision>
       </numberQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="074a2c44-d78d-4fcd-a8a2-c96679341a44">
@@ -184,15 +177,14 @@
       <key>ru</key>
       <value>Ссылка на сайт Ozon</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -208,10 +200,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -222,7 +214,6 @@
       <key>ru</key>
       <value>Идентификатор книги</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -237,10 +228,10 @@
       <key>ru</key>
       <value>ЧГ=0</value>
     </editFormat>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
@@ -250,7 +241,6 @@
       <key>ru</key>
       <value>Форма записи каталога книг</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -260,7 +250,6 @@
       <key>ru</key>
       <value>Импорт книги</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

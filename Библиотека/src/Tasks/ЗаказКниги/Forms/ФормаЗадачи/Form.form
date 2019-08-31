@@ -11,8 +11,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Number</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Number</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НомерРасширеннаяПодсказка</name>
@@ -60,8 +62,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Date</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Date</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
@@ -145,8 +149,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Description</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -194,8 +200,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.BusinessProcess</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.BusinessProcess</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>БизнесПроцессРасширеннаяПодсказка</name>
@@ -243,8 +251,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.RoutePoint</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.RoutePoint</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ТочкаМаршрутаРасширеннаяПодсказка</name>
@@ -296,8 +306,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.BusinessProcess.Автор</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.BusinessProcess.Автор</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>БизнесПроцессАвторРасширеннаяПодсказка</name>
@@ -345,8 +357,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Исполнитель</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Исполнитель</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ИсполнительРасширеннаяПодсказка</name>
@@ -409,8 +423,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.BusinessProcess.КнигиКЗаказу.LineNumber</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.BusinessProcess.КнигиКЗаказу.LineNumber</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>БизнесПроцессКнигиКЗаказуНомерСтрокиРасширеннаяПодсказка</name>
@@ -455,8 +471,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.BusinessProcess.КнигиКЗаказу.Книга</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.BusinessProcess.КнигиКЗаказу.Книга</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>БизнесПроцессКнигиКЗаказуКнигаРасширеннаяПодсказка</name>
@@ -537,7 +555,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>БизнесПроцессКнигиКЗаказуВыдачаСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -576,7 +593,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>БизнесПроцессКнигиКЗаказуВыдачаСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <horizontalLocation>Left</horizontalLocation>
@@ -616,7 +632,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>БизнесПроцессКнигиКЗаказуВыдачаУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -849,8 +864,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.BusinessProcess.КнигиКЗаказу.LineNumber</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.BusinessProcess.КнигиКЗаказу.LineNumber</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>БизнесПроцессКнигиКЗаказу1НомерСтрокиРасширеннаяПодсказка</name>
@@ -895,8 +912,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.BusinessProcess.КнигиКЗаказу.Книга</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.BusinessProcess.КнигиКЗаказу.Книга</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>БизнесПроцессКнигиКЗаказу1КнигаРасширеннаяПодсказка</name>
@@ -977,7 +996,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>БизнесПроцессКнигиКЗаказуВозвратСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1016,7 +1034,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>БизнесПроцессКнигиКЗаказуВозвратСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <horizontalLocation>Left</horizontalLocation>
@@ -1056,7 +1073,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>БизнесПроцессКнигиКЗаказуВозвратУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1274,8 +1290,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарии</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Комментарии</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КомментарииРасширеннаяПодсказка</name>

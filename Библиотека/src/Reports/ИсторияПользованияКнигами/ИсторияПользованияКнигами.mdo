@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>История пользования книгами</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ИсторияПользованияКнигами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="0a16e630-3aaa-43d7-bf0f-d46067aaa969">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
   <commands uuid="d161dff0-aafb-46f8-b4bb-700376f00760">
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>История пользования книгами</value>
     </synonym>
-    <comment></comment>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>

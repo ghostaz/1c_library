@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Description</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
+      </paths>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -65,8 +67,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Фамилия</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Фамилия</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ФамилияРасширеннаяПодсказка</name>
@@ -114,8 +118,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Имя</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Имя</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ИмяРасширеннаяПодсказка</name>
@@ -163,8 +169,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Отчество</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Отчество</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ОтчествоРасширеннаяПодсказка</name>
@@ -219,53 +227,13 @@
         <segments>КнигиАвтора</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <items xsi:type="form:FormField">
-        <name>КнигиАвтораИнвентарныйНомер</name>
-        <id>53</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиАвтора.ИнвентарныйНомер</segments>
-        </dataPath>
-        <extendedTooltip>
-          <name>КнигиАвтораИнвентарныйНомерРасширеннаяПодсказка</name>
-          <id>55</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КнигиАвтораИнвентарныйНомерКонтекстноеМеню</name>
-          <id>54</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>LabelField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:LabelFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>false</horizontalStretch>
-        </extInfo>
-      </items>
+      <excludedCommands>CreateFolder</excludedCommands>
+      <excludedCommands>List</excludedCommands>
+      <excludedCommands>HierarchicalList</excludedCommands>
+      <excludedCommands>Tree</excludedCommands>
+      <excludedCommands>MoveItem</excludedCommands>
+      <excludedCommands>LevelUp</excludedCommands>
+      <excludedCommands>LevelDown</excludedCommands>
       <items xsi:type="form:FormField">
         <name>КнигиАвтораКнига</name>
         <id>56</id>
@@ -274,8 +242,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиАвтора.Книга</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиАвтора.Книга</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КнигиАвтораКнигаРасширеннаяПодсказка</name>
@@ -314,6 +284,55 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
+        <name>КнигиАвтораИнвентарныйНомер</name>
+        <id>53</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиАвтора.ИнвентарныйНомер</segments>
+          </paths>
+        </dataPath>
+        <extendedTooltip>
+          <name>КнигиАвтораИнвентарныйНомерРасширеннаяПодсказка</name>
+          <id>55</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КнигиАвтораИнвентарныйНомерКонтекстноеМеню</name>
+          <id>54</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>false</horizontalStretch>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>КнигиАвтораГодИздания</name>
         <id>47</id>
         <visible>true</visible>
@@ -321,8 +340,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиАвтора.ГодИздания</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиАвтора.ГодИздания</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КнигиАвтораГодИзданияРасширеннаяПодсказка</name>
@@ -371,8 +392,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиАвтора.МестоРазмещения</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиАвтора.МестоРазмещения</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КнигиАвтораМестоРазмещенияРасширеннаяПодсказка</name>
@@ -453,7 +476,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>КнигиАвтораСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -492,7 +514,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>КнигиАвтораСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <horizontalLocation>Left</horizontalLocation>
@@ -532,7 +553,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>КнигиАвтораУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -562,7 +582,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <representation>HierarchicalList</representation>
       <changeRowSet>true</changeRowSet>
       <changeRowOrder>true</changeRowOrder>
       <autoMaxWidth>true</autoMaxWidth>

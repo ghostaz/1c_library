@@ -11,8 +11,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ПутьКФайлу</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ПутьКФайлу</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПутьКФайлуExtendedTooltip</name>
@@ -138,7 +140,7 @@
     <id>6</id>
     <title>
       <key>ru</key>
-      <value>В качестве файла можно указать любой файл, открывыаемый в программе Excell. Как правило они имеют расширения xls, xlsx, csv.</value>
+      <value>В качестве файла можно указать любой файл, открываемый в программе Excell. Как правило они имеют расширения xls, xlsx, csv.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>

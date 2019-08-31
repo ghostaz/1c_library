@@ -18,12 +18,5 @@
         <common>true</common>
       </visibility>
     </items>
-    <items>
-      <form>Catalog.Книги.Form.ФормаСпискаКнигПользователя</form>
-      <height>10</height>
-      <visibility>
-        <common>true</common>
-      </visibility>
-    </items>
   </columns>
 </hpwa:HomePageWorkArea>

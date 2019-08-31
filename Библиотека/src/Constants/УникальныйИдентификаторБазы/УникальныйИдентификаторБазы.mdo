@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="f8d48eff-b15b-4b6e-92f2-8e2c232eba85" valueTypeId="669c384b-e296-471a-8953-ab442ef740ae"/>
     <valueManagerType typeId="4455f83a-6a2f-4081-9568-25dfe90bf7f0" valueTypeId="2dc9bf2b-9856-4159-867b-4a5f55d7f03c"/>
+    <valueKeyType typeId="f0f58511-5a20-5228-85d1-2879c610464d" valueTypeId="67f29857-c239-5365-aabd-2d612ef87f09"/>
   </producedTypes>
   <name>УникальныйИдентификаторБазы</name>
   <synonym>
     <key>ru</key>
     <value>Уникальный идентификатор базы</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>UUID</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
 </mdclass:Constant>
