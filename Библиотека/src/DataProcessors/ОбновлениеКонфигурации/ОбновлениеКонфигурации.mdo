@@ -87,4 +87,11 @@
       <value>Изменения в версии 1.0.6</value>
     </synonym>
   </templates>
+  <templates uuid="70bbc039-5df1-442e-bd1f-443e6cbc3a0a">
+    <name>ИзмененияВВерсии_1_0_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения в версии 1.0.7</value>
+    </synonym>
+  </templates>
 </mdclass:DataProcessor>

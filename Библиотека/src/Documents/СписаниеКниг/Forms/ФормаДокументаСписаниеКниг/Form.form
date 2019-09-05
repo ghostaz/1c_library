@@ -263,8 +263,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Книги.Книга.ИнвентарныйНомер</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Книги.Книга.ИнвентарныйНомер</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИнвентарныйНомерРасширеннаяПодсказка</name>
@@ -312,8 +314,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Книги.Авторы</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Книги.Авторы</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>АвторыРасширеннаяПодсказка</name>
@@ -362,8 +366,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Книги.Книга.Издательство</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Книги.Книга.Издательство</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ИздательствоРасширеннаяПодсказка</name>
@@ -446,12 +452,12 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
-      <event>ChoiceProcessing</event>
-      <name>КнигиОбработкаВыбора</name>
-    </handlers>
-    <handlers>
       <event>OnEditEnd</event>
       <name>КнигиПриОкончанииРедактирования</name>
+    </handlers>
+    <handlers>
+      <event>ChoiceProcessing</event>
+      <name>КнигиОбработкаВыбора</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -612,6 +618,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <fileDragMode>AsFileRef</fileDragMode>
     <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>

@@ -866,6 +866,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьГруппировкуКниг</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.МестоХраненияФайлов</name>
 		<right>
 			<name>Read</name>
@@ -1027,13 +1034,6 @@
 		</right>
 		<right>
 			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИспользоватьГруппировкуКниг</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

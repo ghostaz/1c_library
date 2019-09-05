@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="8b0a951c-87c2-4431-86a7-91fd28735bf3" valueTypeId="b122980c-2086-42f0-9578-c9df1508b817"/>
     <valueManagerType typeId="669c4dab-321a-4af4-b177-099e7165d7a5" valueTypeId="c68f44fa-1266-4016-a8cb-44ca840e45dc"/>
-    <valueKeyType typeId="600376aa-24f9-5571-b799-a1cb76ec837e" valueTypeId="7ed487d5-84d6-51fa-aa55-262a084b80bd"/>
+    <valueKeyType typeId="b291710d-77ec-4ec3-9852-6f3fd215493d" valueTypeId="11f4071f-6344-4f80-b33a-0574be1865b6"/>
   </producedTypes>
   <name>ПарольСервераОбслуживания</name>
   <synonym>

@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="6e0acbd8-7ce4-4402-ad02-bc1625025edd" valueTypeId="aa6372a0-f4e7-4b16-855f-6d3ed58cb948"/>
     <valueManagerType typeId="ff0ac64b-fcf7-4da8-a6bc-f82db09bbf62" valueTypeId="4b7430c1-a0b2-4378-aa06-6e1dba4d1815"/>
-    <valueKeyType typeId="c8727ec5-4c29-574f-aeea-3d84b8023be9" valueTypeId="f33ace81-8ca4-5528-81ba-9bd6c5e576be"/>
+    <valueKeyType typeId="7dcdd143-3459-41b2-bf79-03bebaf098e4" valueTypeId="c1597d71-5b82-4dfa-8a88-b199d5a19e4f"/>
   </producedTypes>
   <name>ПутьКФайламНаДиске</name>
   <synonym>

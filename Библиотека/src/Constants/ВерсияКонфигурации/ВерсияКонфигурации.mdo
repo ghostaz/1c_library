@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="0af1a41a-f0ae-4cbf-bc80-2276d5fd3ebb" valueTypeId="e1e97c24-a300-4d1e-a044-6fbe6db29713"/>
     <valueManagerType typeId="823258e3-3e3a-4f12-ae64-5151850e79a6" valueTypeId="50af315b-1bdc-47ef-899a-67fb62b621cd"/>
-    <valueKeyType typeId="a48c0902-3f76-577c-b11a-868759945fe0" valueTypeId="3b96ca93-3ddd-56a6-92ec-eaf1f5e3411c"/>
+    <valueKeyType typeId="da16149c-f599-40f9-9598-892d5d1ba635" valueTypeId="74acd645-1a9b-48ac-8be9-4b92c6fba717"/>
   </producedTypes>
   <name>ВерсияКонфигурации</name>
   <synonym>

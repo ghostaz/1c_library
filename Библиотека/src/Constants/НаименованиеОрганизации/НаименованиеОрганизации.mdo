@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="ddfd110f-ec18-486e-8aef-5c7069d18dd9" valueTypeId="23154e68-1ea2-4257-860c-70ef864dfeff"/>
     <valueManagerType typeId="bde1de20-7a58-4ade-9feb-8db174664e3e" valueTypeId="94faf94b-fa03-4927-b745-16d008f2a000"/>
-    <valueKeyType typeId="548f6b18-c622-54e6-b5e7-8b3699726839" valueTypeId="5aee2431-2314-58f2-aba4-ad26262103f1"/>
+    <valueKeyType typeId="c9a314d2-b22a-4ee4-92ec-d79625b6068b" valueTypeId="bf6d5812-5a56-42aa-a13a-5e8944c02e41"/>
   </producedTypes>
   <name>НаименованиеОрганизации</name>
   <synonym>

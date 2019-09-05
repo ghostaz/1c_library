@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="323ad0a7-f327-40a9-9ca8-3b705c58e08c" valueTypeId="e12bad81-78fc-4141-8a12-efbd92b6be8c"/>
     <valueManagerType typeId="d858c6e8-00e1-4710-8e6b-d23f76cab20a" valueTypeId="045d72cc-34ca-4656-b185-aa039372d004"/>
-    <valueKeyType typeId="607bd277-c755-532b-b504-fa740691d0ea" valueTypeId="327fbe5e-23c5-5d8e-84d1-5d1f99b2c768"/>
+    <valueKeyType typeId="14443ad3-2bee-4b21-b60a-56996ba2b74f" valueTypeId="f17eb4f0-418d-4f00-b23d-8c89a39e9d24"/>
   </producedTypes>
   <name>ИмяПортаСервераОбслуживания</name>
   <synonym>

@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="474716a6-7dba-4a06-90c9-a452338aae75" valueTypeId="9ffea93b-cb77-4d9a-9378-8e632167d8ff"/>
     <valueManagerType typeId="09bed7d1-1c90-4e51-a56d-b9cb889a8312" valueTypeId="a744fc18-b437-4e08-94ed-652ef8b700d4"/>
-    <valueKeyType typeId="27d6cb4b-10e7-5ad6-bb56-7b3275076a7c" valueTypeId="65d1f862-d874-515e-813e-ee4353b777c7"/>
+    <valueKeyType typeId="6e683bed-c28b-4143-a5f0-78f1f2c8eb99" valueTypeId="2337cffb-39da-4479-9e92-8a9b147c482e"/>
   </producedTypes>
   <name>ДопустимыеРасширенияФайлов</name>
   <synonym>

@@ -107,6 +107,7 @@
           <height>7</height>
           <autoMaxHeight>true</autoMaxHeight>
           <pictureSize>Proportionally</pictureSize>
+          <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -184,10 +185,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <toolTip>
-            <key>ru</key>
-            <value></value>
-          </toolTip>
           <extendedTooltip>
             <name>ДекорацияОчиститьРасширеннаяПодсказка</name>
             <id>117</id>
@@ -625,8 +622,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Родитель</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Parent</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ГруппаКнигРасширеннаяПодсказка</name>
@@ -1177,6 +1176,7 @@
         <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
+        <fileDragMode>AsFileRef</fileDragMode>
         <searchStringLocation>None</searchStringLocation>
         <viewStatusLocation>None</viewStatusLocation>
         <searchControlLocation>None</searchControlLocation>

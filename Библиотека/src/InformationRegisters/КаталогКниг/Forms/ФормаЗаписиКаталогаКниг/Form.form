@@ -578,6 +578,7 @@
           <key>ru</key>
           <value>Нет изображения</value>
         </nonselectedPictureText>
+        <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <visible>true</visible>

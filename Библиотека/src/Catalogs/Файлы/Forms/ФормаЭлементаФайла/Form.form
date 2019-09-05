@@ -566,8 +566,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Картинка</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Картинка</segments>
+          </paths>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -610,6 +612,7 @@
             <key>ru</key>
             <value>Нет изображения</value>
           </nonselectedPictureText>
+          <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -908,6 +911,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <fileDragMode>AsFileRef</fileDragMode>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>

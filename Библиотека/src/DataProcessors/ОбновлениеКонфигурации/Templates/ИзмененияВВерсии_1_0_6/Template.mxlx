@@ -739,6 +739,7 @@
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>16</defaultFormatIndex>
 	<height>14</height>
+	<vgRows>14</vgRows>
 	<merge>
 		<r>3</r>
 		<c>1</c>
@@ -755,12 +756,7 @@
 		<w>7</w>
 	</merge>
 	<merge>
-		<r>11</r>
-		<c>1</c>
-		<w>7</w>
-	</merge>
-	<merge>
-		<r>8</r>
+		<r>6</r>
 		<c>1</c>
 		<w>7</w>
 	</merge>
@@ -770,7 +766,7 @@
 		<w>7</w>
 	</merge>
 	<merge>
-		<r>6</r>
+		<r>8</r>
 		<c>1</c>
 		<w>7</w>
 	</merge>
@@ -781,6 +777,11 @@
 	</merge>
 	<merge>
 		<r>10</r>
+		<c>1</c>
+		<w>7</w>
+	</merge>
+	<merge>
+		<r>11</r>
 		<c>1</c>
 		<w>7</w>
 	</merge>

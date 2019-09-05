@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="8c5924d0-4652-436f-bade-f2d88d61b208" valueTypeId="ec2ccefa-19b2-41f9-a9ae-b515d76fc79b"/>
     <valueManagerType typeId="5cbca0ab-3595-42a6-9f12-08f914353d60" valueTypeId="b57dad63-049e-405b-8cee-96c94c9c0601"/>
-    <valueKeyType typeId="def7331e-5861-5bae-a126-fad6b2785844" valueTypeId="5210f791-fb83-5937-a58e-6223293ca986"/>
+    <valueKeyType typeId="b5f506be-a9c0-4c5f-bd7b-0ae6dc4d207a" valueTypeId="f31593e5-1d55-4f7f-b2c8-6835e71d2efb"/>
   </producedTypes>
   <name>ИспользоватьКаталогКниг</name>
   <synonym>

@@ -48,6 +48,7 @@
         <picture xsi:type="core:PictureRef">
           <picture>CommonPicture.ИзображениеАбонента</picture>
         </picture>
+        <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -386,18 +387,18 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Choose</excludedCommands>
+        <excludedCommands>ChangeHistory</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>SetDeletionMark</excludedCommands>
         <excludedCommands>CreateFolder</excludedCommands>
-        <excludedCommands>List</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
         <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
-        <excludedCommands>MoveItem</excludedCommands>
-        <excludedCommands>LevelUp</excludedCommands>
         <excludedCommands>LevelDown</excludedCommands>
+        <excludedCommands>LevelUp</excludedCommands>
+        <excludedCommands>List</excludedCommands>
+        <excludedCommands>MoveItem</excludedCommands>
+        <excludedCommands>SetDeletionMark</excludedCommands>
+        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormField">
           <name>КнигиНаРукахНаименование</name>
           <id>27</id>
@@ -763,6 +764,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
+        <fileDragMode>AsFileRef</fileDragMode>
         <rowPictureDataPath xsi:type="form:DataPath">
           <segments>КнигиНаРуках.НомерКартинки</segments>
         </rowPictureDataPath>

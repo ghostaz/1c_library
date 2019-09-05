@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="ea39c819-a6d2-498c-b240-7ca7ae896a8b" valueTypeId="6afb1412-ff87-4ed9-aaba-304880305269"/>
     <valueManagerType typeId="c470d8ba-696e-4ffe-b12d-530d08a05489" valueTypeId="8e2b2e5b-c009-4753-ad06-684c54fe3ac8"/>
-    <valueKeyType typeId="eda08099-26b4-5764-8432-6d5c989c6fd1" valueTypeId="e6676aee-e0e2-5cdc-ab2b-d84cea8ef336"/>
+    <valueKeyType typeId="c5ea3967-89fc-4f28-9bb1-b8ed9ced28ad" valueTypeId="bcc263bc-69eb-4848-b3fc-6453a279a5bc"/>
   </producedTypes>
   <name>ОтветственныйЗаВыдачуКниг</name>
   <synonym>

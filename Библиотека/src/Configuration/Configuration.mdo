@@ -11,13 +11,13 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="02fa3620-f792-400b-be62-3be062cb9c0d"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="041bd79e-385d-4605-8462-a0fa42297b50"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d679eb2c-63fc-43e2-bc5d-df7fcac15611"/>
-  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.6.6</version>
+  <version>1.0.7.1</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>

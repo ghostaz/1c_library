@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="c57c6966-8f6a-4860-99fb-b9a55bf23fa1" valueTypeId="ed292aab-54ba-4780-b2da-188e0e470fe2"/>
     <valueManagerType typeId="5cccf1a9-a1d6-4c15-ac2a-8b8bba7de4d2" valueTypeId="519b2e11-22ee-488c-bcec-e9e6debc049e"/>
-    <valueKeyType typeId="ee2695fe-2017-5048-95f2-0f3cef65074f" valueTypeId="955988c0-0d9b-5946-94aa-558c14a23623"/>
+    <valueKeyType typeId="20a2a4fd-de78-4f50-bfeb-bb70851048d3" valueTypeId="fdef71af-7a31-4589-b34a-ab5a7c7b64c1"/>
   </producedTypes>
   <name>МестоХраненияФайлов</name>
   <synonym>

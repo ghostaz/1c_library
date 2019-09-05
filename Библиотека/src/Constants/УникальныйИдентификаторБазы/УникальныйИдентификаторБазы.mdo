@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="f8d48eff-b15b-4b6e-92f2-8e2c232eba85" valueTypeId="669c384b-e296-471a-8953-ab442ef740ae"/>
     <valueManagerType typeId="4455f83a-6a2f-4081-9568-25dfe90bf7f0" valueTypeId="2dc9bf2b-9856-4159-867b-4a5f55d7f03c"/>
-    <valueKeyType typeId="f0f58511-5a20-5228-85d1-2879c610464d" valueTypeId="67f29857-c239-5365-aabd-2d612ef87f09"/>
+    <valueKeyType typeId="9f7dfbbf-480b-4b12-80e2-0b339d39e5c3" valueTypeId="6f86dbf4-e54b-45dd-82e0-3e32a40ac0c1"/>
   </producedTypes>
   <name>УникальныйИдентификаторБазы</name>
   <synonym>

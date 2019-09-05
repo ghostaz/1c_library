@@ -228,12 +228,12 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>CreateFolder</excludedCommands>
-      <excludedCommands>List</excludedCommands>
       <excludedCommands>HierarchicalList</excludedCommands>
-      <excludedCommands>Tree</excludedCommands>
-      <excludedCommands>MoveItem</excludedCommands>
-      <excludedCommands>LevelUp</excludedCommands>
       <excludedCommands>LevelDown</excludedCommands>
+      <excludedCommands>LevelUp</excludedCommands>
+      <excludedCommands>List</excludedCommands>
+      <excludedCommands>MoveItem</excludedCommands>
+      <excludedCommands>Tree</excludedCommands>
       <items xsi:type="form:FormField">
         <name>КнигиАвтораКнига</name>
         <id>56</id>
@@ -601,6 +601,7 @@
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
+      <fileDragMode>AsFileRef</fileDragMode>
       <rowPictureDataPath xsi:type="form:DataPath">
         <segments>КнигиАвтора.НомерКартинки</segments>
       </rowPictureDataPath>

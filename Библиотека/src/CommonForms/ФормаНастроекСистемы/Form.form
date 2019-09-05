@@ -128,8 +128,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>НаборКонстант.ИспользоватьГруппировкуКниг</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьГруппировкуКниг</segments>
+          </paths>
         </dataPath>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>

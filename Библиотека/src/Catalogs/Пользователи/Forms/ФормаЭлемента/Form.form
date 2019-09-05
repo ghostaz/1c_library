@@ -46,7 +46,9 @@
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>false</horizontalStretch>
       <skipOnInput>false</skipOnInput>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ПолноеИмяПояснениеИКоманда</name>
@@ -247,7 +249,9 @@
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>false</horizontalStretch>
       <skipOnInput>false</skipOnInput>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
     </items>
     <items xsi:type="form:Decoration">
       <name>СвязьПояснениеНесоответствия</name>
@@ -1718,6 +1722,7 @@
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
+          <fileDragMode>AsFileRef</fileDragMode>
           <rowPictureDataPath xsi:type="form:DataPath">
             <segments>Роли.НомерКартинки</segments>
           </rowPictureDataPath>

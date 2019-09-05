@@ -3,7 +3,7 @@
   <producedTypes>
     <managerType typeId="55b2fe50-4491-4e9f-b8a6-fe6ab036c1f0" valueTypeId="e87e400c-6451-4ce4-bdb8-7f9617f5c904"/>
     <valueManagerType typeId="4644f99e-663c-4198-bef4-aac5c66db7d0" valueTypeId="23f21727-6dd4-473f-a430-2fef35c66748"/>
-    <valueKeyType typeId="1a94a0bc-4d21-52ea-a1a7-5be8e9c8a30e" valueTypeId="5b2a299f-d4d8-5138-8f1f-a018f4f12901"/>
+    <valueKeyType typeId="e053e361-8739-4b83-9db0-fc03099ba8a2" valueTypeId="c0157edb-99b5-4a79-a3a3-ef04d7f6c6b6"/>
   </producedTypes>
   <name>МаксимальныйРазмерФайла</name>
   <synonym>

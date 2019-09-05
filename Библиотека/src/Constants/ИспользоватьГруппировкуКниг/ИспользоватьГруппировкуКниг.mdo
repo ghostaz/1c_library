@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df05753a-3fc7-477c-95b6-692a61c3b045">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df05753a-3fc7-477c-95b6-692a61c3b045">
   <producedTypes>
     <managerType typeId="84262247-4c09-41da-b90a-8399bbf7cfd5" valueTypeId="3f5aabc4-c2c2-46e7-b215-2fd86188b2b7"/>
     <valueManagerType typeId="ba034805-7e21-46d6-9112-bc55703e77ff" valueTypeId="83e357b5-6b21-4085-b5f0-5a0e2b2b9658"/>
+    <valueKeyType typeId="6c9ebbdf-261a-4c2a-9443-d74cd986ef89" valueTypeId="82d80238-f943-4ace-8dc3-5dc771a8664d"/>
   </producedTypes>
   <name>ИспользоватьГруппировкуКниг</name>
   <synonym>
@@ -12,5 +13,7 @@
   <type>
     <types>Boolean</types>
   </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

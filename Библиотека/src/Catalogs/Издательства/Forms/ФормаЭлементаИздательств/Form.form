@@ -119,12 +119,12 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>CreateFolder</excludedCommands>
-      <excludedCommands>List</excludedCommands>
       <excludedCommands>HierarchicalList</excludedCommands>
-      <excludedCommands>Tree</excludedCommands>
-      <excludedCommands>MoveItem</excludedCommands>
-      <excludedCommands>LevelUp</excludedCommands>
       <excludedCommands>LevelDown</excludedCommands>
+      <excludedCommands>LevelUp</excludedCommands>
+      <excludedCommands>List</excludedCommands>
+      <excludedCommands>MoveItem</excludedCommands>
+      <excludedCommands>Tree</excludedCommands>
       <items xsi:type="form:FormField">
         <name>КнигиИздательстваКнига</name>
         <id>25</id>
@@ -181,8 +181,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КнигиИздательства.ИнвентарныйНомер</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>КнигиИздательства.ИнвентарныйНомер</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КнигиИздательстваИнвентарныйНомерРасширеннаяПодсказка</name>
@@ -492,6 +494,7 @@
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
+      <fileDragMode>AsFileRef</fileDragMode>
       <rowPictureDataPath xsi:type="form:DataPath">
         <segments>КнигиИздательства.НомерКартинки</segments>
       </rowPictureDataPath>

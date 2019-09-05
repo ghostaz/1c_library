@@ -1085,6 +1085,7 @@
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>21</defaultFormatIndex>
 	<height>19</height>
+	<vgRows>19</vgRows>
 	<merge>
 		<r>2</r>
 		<c>1</c>
