@@ -17,7 +17,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.7.1</version>
+  <version>1.0.7.2</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
@@ -113,6 +113,7 @@
   <dataProcessors>DataProcessor.ФормированиеЗаказаКниг</dataProcessors>
   <informationRegisters>InformationRegister.ДополнительныеСвойства</informationRegisters>
   <informationRegisters>InformationRegister.КаталогКниг</informationRegisters>
+  <informationRegisters>InformationRegister.Закладки</informationRegisters>
   <accumulationRegisters>AccumulationRegister.КнигиВБиблиотеке</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойства</chartsOfCharacteristicTypes>
   <businessProcesses>BusinessProcess.ЗаказКниги</businessProcesses>

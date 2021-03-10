@@ -25,4 +25,5 @@
   <content>InformationRegister.ДополнительныеСвойства</content>
   <content>Constant.ИспользоватьГруппировкуКниг</content>
   <subsystems>ДополнительныеСвойства</subsystems>
+  <subsystems>Закладки</subsystems>
 </mdclass:Subsystem>

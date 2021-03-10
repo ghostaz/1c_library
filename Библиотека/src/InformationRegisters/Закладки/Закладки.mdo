@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c8ed423-f297-44ec-aa34-8481ec3c295a">
+  <producedTypes>
+    <selectionType typeId="14ab15bd-48f6-4f8d-afa9-17877e8bb34c" valueTypeId="79627202-6a8e-493b-9e54-e4aaa8c0fe27"/>
+    <listType typeId="52e79ee4-1743-43ed-b1d9-a841f4ef4a9f" valueTypeId="3fafbac2-4204-4338-9faa-74423544a115"/>
+    <managerType typeId="74afc6af-4c2d-4129-8b2d-1f5aa9665d97" valueTypeId="47d90cbb-2462-4eea-ba10-3d3ffea6f575"/>
+    <recordSetType typeId="1bc527d3-1eb3-4f66-82e7-f064b543e234" valueTypeId="803d011c-ac78-4fda-8a3d-b9241195c8dd"/>
+    <recordKeyType typeId="6a5978d4-c2b0-4753-bb6b-5899f520e6b0" valueTypeId="e84fca75-b3f7-46ae-95ae-f6bbdbd74e79"/>
+    <recordType typeId="ac46361b-542e-4c4f-b650-aafe1bd892fe" valueTypeId="4a6df2ea-bcc4-4e06-9afe-9704297ce394"/>
+    <recordManagerType typeId="2b96b84a-fb85-4547-96ab-9063b0d52877" valueTypeId="d0c6f515-26f4-4ea1-a133-8d4b2a7a09b5"/>
+  </producedTypes>
+  <name>Закладки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закладки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Закладки.Form.ФормаЗаписиЗакладки</defaultRecordForm>
+  <defaultListForm>InformationRegister.Закладки.Form.ФормаСпискаЗакладок</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9785c3f3-9c89-4bbd-be30-1a4943a65432">
+    <name>Страница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8343a5dd-e0e2-4113-9edf-d50b21350a3b">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ab08fefe-5ad7-4fdc-babc-758826e30625">
+    <name>Книга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Книги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d233060c-a4d0-460c-ab64-059b5bd389ff">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="07ffc63b-aac1-4650-a5b9-7f2215d69417">
+    <name>ИдентификаторЗакладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор закладки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ea578b29-ca27-4e6f-8bc4-7d600975d70d">
+    <name>ФормаЗаписиЗакладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи закладки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06e1d950-bceb-4e42-a3e4-0b0fb5630e56">
+    <name>ФормаСпискаЗакладок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка закладок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
