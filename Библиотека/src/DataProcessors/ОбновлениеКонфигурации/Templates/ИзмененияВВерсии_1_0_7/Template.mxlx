@@ -136,6 +136,12 @@
 			<c>
 				<c>
 					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конфигурация переведена на платформу 8.3.14</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -197,6 +203,12 @@
 			<c>
 				<c>
 					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавлены закладки для книг. Теперь на форме книги можно добавлять закладки.</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -691,6 +703,7 @@
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>16</defaultFormatIndex>
 	<height>14</height>
+	<vgRows>14</vgRows>
 	<merge>
 		<r>3</r>
 		<c>1</c>

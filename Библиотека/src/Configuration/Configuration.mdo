@@ -17,7 +17,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Баданов Владимир</vendor>
-  <version>1.0.7.2</version>
+  <version>1.0.7.3</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
@@ -30,7 +30,7 @@
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.12</compatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="557b13a4-3419-4c36-8fa8-3e97c2ee16e1">
     <name>Русский</name>
     <synonym>
