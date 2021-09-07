@@ -913,7 +913,7 @@
         <titleLocation>Right</titleLocation>
         <toolTip>
           <key>ru</key>
-          <value>При включении галочки, в интерфейсе появится новый раздел &quot;Каталог книг&quot; и функционал поиска книг в общей базе. Это позволит вам находить книги по наименованию или ISBN и в один клик импортировать.</value>
+          <value>При включении галочки, в интерфейсе появится новый раздел &quot;Каталог книг&quot; и функционал поиска книг в общей базе. Это позволит вам находить книги по наименованию или ISBN и импортировать в одно нажатие.</value>
         </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
@@ -959,7 +959,7 @@
           <id>131</id>
           <title>
             <key>ru</key>
-            <value>Первоначальное заполнение базы сводится к нескольким шагам. После заполнения каталога книг размер базы может существенно увеличиться, а для самой операции потребуется подключение к сети интернет для закачки файла объемом около 150 Мб. Размер базы может увеличится на 1,5 Гб.</value>
+            <value>Первоначальное заполнение базы сводится к нескольким шагам. После заполнения каталога книг размер базы может существенно увеличиться, а для самой операции потребуется подключение к сети интернет для закачки файла объемом около 300 Мб. Размер базы может увеличится на 1,5 Гб.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1001,7 +1001,7 @@
           <name>ГруппаКнопкиКаталогаКниг</name>
           <id>143</id>
           <items xsi:type="form:Button">
-            <name>ЗаполнитьКаталогКниг</name>
+            <name>ЗаполнитьКаталогКнигПоСети</name>
             <id>134</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1009,7 +1009,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ЗаполнитьКаталогКнигРасширеннаяПодсказка</name>
+              <name>ЗаполнитьКаталогКнигПоСетиРасширеннаяПодсказка</name>
               <id>135</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1024,11 +1024,42 @@
               </extInfo>
             </extendedTooltip>
             <type>UsualButton</type>
-            <commandName>Form.Command.ЗаполнитьКаталогКниг</commandName>
+            <commandName>Form.Command.ЗаполнитьКаталогКнигПоСети</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЗаполнитьКаталогКнигИзФайла</name>
+            <id>151</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗаполнитьКаталогКнигИзФайлаРасширеннаяПодсказка</name>
+              <id>152</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ЗаполнитьКаталогКнигИзФайла</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
             <name>ОчиститьКаталогКниг</name>
@@ -1460,10 +1491,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗаполнитьКаталогКниг</name>
+    <name>ЗаполнитьКаталогКнигПоСети</name>
     <title>
       <key>ru</key>
-      <value>Заполнить каталог книг</value>
+      <value>Заполнить каталог книг по сети</value>
     </title>
     <id>2</id>
     <toolTip>
@@ -1497,6 +1528,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОчиститьКаталогКниг</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьКаталогКнигИзФайла</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить каталог книг из файла</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполнить каталог книг</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьКаталогКнигИзФайла</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
